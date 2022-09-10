@@ -1,8 +1,8 @@
-let x1 = 347
-let y1 = 778
+let x1 = 699
+let y1 = 595
 
-let x2 = 402
-let y2 = 617
+let x2 = 752
+let y2 = 462
 
 let x3 = 448
 let y3 = 700
