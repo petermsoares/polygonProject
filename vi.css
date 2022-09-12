@@ -5,20 +5,23 @@
 }
 
 body{
+    width: 100vw;
     background-color: #6e6e6e;
-    /* position: relative; */
     overflow-x: hidden;
 }
 
-
 .hero__hide{
-/*This class creates the container that has
-a width equal to the screen width. 
-We can then hide the overflow of any 
-content that is nested in this div. This
-is necessary for mobile devices.*/
+/* This class creates the container that 
+hides the overflow of any content that is 
+nested in this div. Necessary for mobile. */
         width: 100vw;
+        height: 100vh;
         overflow: hidden;
+            /* This overflow causes a small bug
+            in horizontal mobile displays as it
+            cuts off the bottom portion of the
+            animation. Small edge-case, for the
+            most part this works as intended. */
     }
 
 
@@ -28,7 +31,6 @@ is necessary for mobile devices.*/
     position: relative;
     transform: translate(-50%, -10%);
     left: 50%; 
-    /* background-color: white; */
     height: 100vw;
     width: 100vw;
     max-width: 1200px;
@@ -44,10 +46,10 @@ horizontal scrolling issues. Some mobile
 devices have very high pixel density, so
 checking each one to make sure the animation
 isn't too small must be done in the future.*/
-    .hero__section{
+    /* .hero__section{
         height: 1000px;
         width: 1000px;
-    }
+    } */
 }
 
 
@@ -62,9 +64,9 @@ isn't too small must be done in the future.*/
     color: #c5beb9;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .hero__section__title{
-    font-size: 30px;
+    font-size: 1.25em;
   }
 }
 
@@ -125,8 +127,8 @@ isn't too small must be done in the future.*/
     width: 20px;
     border-radius: 50%;
     background-color: #c5beb9;
-    top: 39%;
-    left: 37.4%;
+    top: 39.1%;
+    left: 37.8%;
     transform: translate(-10px, -10px);
     animation: move__point__1;
     animation-duration: 3s;
@@ -157,25 +159,25 @@ isn't too small must be done in the future.*/
 @keyframes move__point__1 {
     0%{ 
         opacity: 0;  
-        top: 39%;
-        left: 37.4%;
+        top: 39.1%;
+        left: 37.8%;
     }
     
     30%{
         opacity: 1;
-        top: 39%;
-        left: 37.4%;
+        top: 39.1%;
+        left: 37.8%;
     }
 
     80%{
         opacity: 1;
-        top: 61%;
+        top: 60.4%;
         left: 50%;
     }
 
     100%{
         opacity: 0;
-        top: 61%;
+        top: 60.4%;
         left: 50%;
     }
 }
@@ -226,7 +228,7 @@ isn't too small must be done in the future.*/
     width: 20px;
     border-radius: 50%;
     background-color: #c5beb9;
-    top: 61%;
+    top: 60.4%;
     left: 50%;
     transform: translate(-10px, -10px);
     
@@ -271,13 +273,13 @@ isn't too small must be done in the future.*/
     }
     80%{
         opacity: 1;
-        top: 39%;
-        left: 62.6%;
+        top: 39.1%;
+        left: 62.2%;
     }
     100%{
         opacity: 0;
-        top: 39%;
-        left: 62.6%;
+        top: 39.1%;
+        left: 62.2%;
     }
 }
 
@@ -326,8 +328,8 @@ isn't too small must be done in the future.*/
     width: 20px;
     border-radius: 50%;
     background-color: #c5beb9;
-    top: 39%;
-    left: 62.6%;
+    top: 39.1%;
+    left: 62.2%;
     transform: translate(-10px, -10px);
     
     animation: move__point__3;
@@ -335,6 +337,7 @@ isn't too small must be done in the future.*/
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
+
 }
 
 .hero__section__triangle__side3{
@@ -361,23 +364,23 @@ isn't too small must be done in the future.*/
 @keyframes move__point__3 {
     0%{ 
         opacity: 0;  
-        top: 39%;
-        left: 62.6%;
+        top: 39.1%;
+        left: 62.2%;
     }    
     30%{
         opacity: 1;
-        top: 39%;
-        left: 62.6%;
+        top: 39.1%;
+        left: 62.2%;
     }
     80%{
         opacity: 1;
-        top: 39%;
-        left: 37.4%;
+        top: 39.1%;
+        left: 37.8%
     }
     100%{
         opacity: 0;
-        top: 39%;
-        left: 37.4%;
+        top: 39.1%;
+        left: 37.8%;
     }
 }
 
@@ -446,9 +449,9 @@ isn't too small must be done in the future.*/
     width: 100%;
     background-color: #6e6e6e;
     clip-path: polygon(
-        38.2% 39.5%,
+        38.2% 39.4%,
         50% 60%,
-        61.8% 39.5%
+        61.8% 39.4%
     );
 }
 
