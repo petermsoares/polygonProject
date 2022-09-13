@@ -1,15 +1,21 @@
 const blocks = document.querySelectorAll(".block")
 const blockSection = document.querySelectorAll(".section2")
 
+
+
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
         if(!entry.isIntersecting){
             return
         }
-        else{
-            blocks.forEach(block => {
+        else{    
+            
+            blocks.forEach((block, i) => { 
+                setTimeout(() => {               
             block.classList.add("animate")
-            })          
+            }, i * 1000);   
+        
+        })      
     }
     })
 })
