@@ -1,0 +1,11 @@
+Trying to figure out how to use intersection
+to trigger a CSS animation. I have the basic
+idea set up with this test file, but I'm now
+trying to figure out how to offset the animations.
+
+Because I am adding a CSS class to the items
+that will be animated, there's no way for me to add
+an offset in the CSS file itself--so I need to  tell
+javascript to loop adding the CSS class that contains
+the animation every 3/1000 of a second or so in order
+to make a type of cascading effect.
