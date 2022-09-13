@@ -46,10 +46,10 @@ horizontal scrolling issues. Some mobile
 devices have very high pixel density, so
 checking each one to make sure the animation
 isn't too small must be done in the future.*/
-    /* .hero__section{
+    .hero__section{
         height: 1000px;
         width: 1000px;
-    } */
+    }
 }
 
 
@@ -66,7 +66,7 @@ isn't too small must be done in the future.*/
 
 @media only screen and (max-width: 800px) {
   .hero__section__title{
-    font-size: 1.25em;
+    font-size: 30px;
   }
 }
 
@@ -75,7 +75,7 @@ isn't too small must be done in the future.*/
     animation: flicker;
     animation-fill-mode: forwards;
     animation-duration: .5s;
-    animation-delay: 3.5s;
+    animation-delay: 3.25s;
     animation-iteration-count: 1;
     }
 
@@ -105,9 +105,36 @@ isn't too small must be done in the future.*/
     animation: fade;
     animation-fill-mode: forwards;
     animation-duration: .5s;
-    animation-delay: 4.2s;
+    animation-delay: 4s;
     animation-iteration-count: 1;
     }
+
+.hero__section__directions{
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -25%);
+    position: absolute;
+    font-size: 30px;
+    font-family: monospace;
+    color: #c5beb9;
+    opacity: 0;
+
+
+    animation: fade, down;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes down{
+    0%{
+        top: 30%;
+    }
+
+    100%{top: 32%;}
+}
 
 @keyframes fade{
 
@@ -120,6 +147,9 @@ isn't too small must be done in the future.*/
     }
 
 }
+
+
+
 .hero__section__triangle__point1{
     z-index: 16;
     position: absolute;
@@ -171,8 +201,8 @@ isn't too small must be done in the future.*/
 
     80%{
         opacity: 1;
-        top: 60.4%;
-        left: 50%;
+    top: 60.4%;
+    left: 50%;
     }
 
     100%{
@@ -486,9 +516,7 @@ to achieve an animated effect.*/
     clip-path: polygon(15% 1.6%, 25.7% 15.2%, 24.4% 22.9%);
     opacity: 0;
     
-    animation: polyMove 6s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation: polyMove;
 }
 
 
@@ -501,9 +529,7 @@ to achieve an animated effect.*/
     clip-path: polygon(22.5% 4.2%, 25.7% 15.2%, 20.9% 9.2%);
     opacity: 0;
     
-    animation: polyMove 6.02s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;}
+    animation: polyMove;}
 
 .polygon3{
     position: absolute;
@@ -515,9 +541,7 @@ to achieve an animated effect.*/
 
     opacity: 0;
     
-    animation: polyMove 6.04s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;}
+    animation: polyMove;}
 
 .polygon4{
     position: absolute;
@@ -528,9 +552,7 @@ to achieve an animated effect.*/
     clip-path: polygon(32.5% 2.1%, 25.7% 15.2%, 31.4% 9.5%);
     opacity: 0;
     
-    animation: polyMove 6.06s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;}
+    animation: polyMove;}
 /* testing animations with a delay.
 I need to figure out how to trigger
 the animations with JS tomorrow. */
