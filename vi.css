@@ -485,14 +485,17 @@ isn't too small must be done in the future.*/
     );
 }
 
-@keyframes polyMove {
+.viPolygonAnimate{
+    animation: polyMoveVi;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes polyMoveVi {
     0%{
     clip-path: polygon(50% 50%, 50% 50%, 50% 50%);
     opacity: 0
-    }
-
-    10%{
-        opacity: 1;
     }
 
     100%{
@@ -515,8 +518,6 @@ to achieve an animated effect.*/
     background-color: #D25C72;
     clip-path: polygon(15% 1.6%, 25.7% 15.2%, 24.4% 22.9%);
     opacity: 0;
-    
-    animation: polyMove;
 }
 
 
@@ -527,9 +528,7 @@ to achieve an animated effect.*/
     width: 100%;
     background-color: #A5363F;
     clip-path: polygon(22.5% 4.2%, 25.7% 15.2%, 20.9% 9.2%);
-    opacity: 0;
-    
-    animation: polyMove;}
+    opacity: 0;}
 
 .polygon3{
     position: absolute;
@@ -540,8 +539,7 @@ to achieve an animated effect.*/
     clip-path: polygon(32.5% 2.3%, 25.7% 15.2%, 24% 9.4%);
 
     opacity: 0;
-    
-    animation: polyMove;}
+    }
 
 .polygon4{
     position: absolute;
@@ -551,13 +549,13 @@ to achieve an animated effect.*/
     background-color: #D25C72;
     clip-path: polygon(32.5% 2.1%, 25.7% 15.2%, 31.4% 9.5%);
     opacity: 0;
-    
-    animation: polyMove;}
+    }
 /* testing animations with a delay.
 I need to figure out how to trigger
 the animations with JS tomorrow. */
 .polygon5{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -567,6 +565,7 @@ the animations with JS tomorrow. */
 
 .polygon6{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -576,6 +575,7 @@ the animations with JS tomorrow. */
 
 .polygon7{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -585,6 +585,7 @@ the animations with JS tomorrow. */
 
 .polygon8{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -594,6 +595,7 @@ the animations with JS tomorrow. */
 
 .polygon9{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -603,6 +605,7 @@ the animations with JS tomorrow. */
 
 .polygon10{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -613,6 +616,7 @@ the animations with JS tomorrow. */
 
 .polygon11{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -622,6 +626,7 @@ the animations with JS tomorrow. */
 
 .polygon12{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -631,6 +636,7 @@ the animations with JS tomorrow. */
 
 .polygon13{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -640,6 +646,7 @@ the animations with JS tomorrow. */
 
 .polygon14{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -649,6 +656,7 @@ the animations with JS tomorrow. */
 
 .polygon15{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -658,6 +666,7 @@ the animations with JS tomorrow. */
 
 .polygon16{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -667,6 +676,7 @@ the animations with JS tomorrow. */
 
 .polygon17{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -676,6 +686,7 @@ the animations with JS tomorrow. */
 
 .polygon18{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -685,6 +696,7 @@ the animations with JS tomorrow. */
 
 .polygon19{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -694,6 +706,7 @@ the animations with JS tomorrow. */
 
 .polygon20{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -703,6 +716,7 @@ the animations with JS tomorrow. */
 
 .polygon21{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -712,6 +726,7 @@ the animations with JS tomorrow. */
 
 .polygon22{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -721,6 +736,7 @@ the animations with JS tomorrow. */
 
 .polygon23{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -730,6 +746,7 @@ the animations with JS tomorrow. */
 
 .polygon24{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -739,6 +756,7 @@ the animations with JS tomorrow. */
 
 .polygon25{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -748,6 +766,7 @@ the animations with JS tomorrow. */
 
 .polygon26{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -757,6 +776,7 @@ the animations with JS tomorrow. */
 
 .polygon27{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -766,6 +786,7 @@ the animations with JS tomorrow. */
 
 .polygon28{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -778,6 +799,7 @@ the animations with JS tomorrow. */
 
 .polygon29{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -790,6 +812,7 @@ the animations with JS tomorrow. */
 
 .polygon30{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -802,6 +825,7 @@ the animations with JS tomorrow. */
 
 .polygon31{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -811,6 +835,7 @@ the animations with JS tomorrow. */
 
 .polygon32{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -820,6 +845,7 @@ the animations with JS tomorrow. */
 
 .polygon33{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -829,6 +855,7 @@ the animations with JS tomorrow. */
 
 .polygon34{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -838,6 +865,7 @@ the animations with JS tomorrow. */
 
 .polygon35{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -847,6 +875,7 @@ the animations with JS tomorrow. */
 
 .polygon36{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -856,6 +885,7 @@ the animations with JS tomorrow. */
 
 .polygon37{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -865,6 +895,7 @@ the animations with JS tomorrow. */
 
 .polygon38{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -874,6 +905,7 @@ the animations with JS tomorrow. */
 
 .polygon39{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -883,6 +915,7 @@ the animations with JS tomorrow. */
 
 .polygon40{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -892,6 +925,7 @@ the animations with JS tomorrow. */
 
 .polygon41{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -901,6 +935,7 @@ the animations with JS tomorrow. */
 
 .polygon42{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -910,6 +945,7 @@ the animations with JS tomorrow. */
 
 .polygon43{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -919,6 +955,7 @@ the animations with JS tomorrow. */
 
 .polygon44{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -928,6 +965,7 @@ the animations with JS tomorrow. */
 
 .polygon45{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -937,6 +975,7 @@ the animations with JS tomorrow. */
 
 .polygon46{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -946,6 +985,7 @@ the animations with JS tomorrow. */
 
 .polygon47{
     position: absolute;
+    opacity: 0;
     z-index: 100;
     height: 100%;
     width: 100%;
@@ -955,6 +995,7 @@ the animations with JS tomorrow. */
 
 .polygon48{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -964,6 +1005,7 @@ the animations with JS tomorrow. */
 
 .polygon49{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -973,6 +1015,7 @@ the animations with JS tomorrow. */
 
 .polygon50{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -982,6 +1025,7 @@ the animations with JS tomorrow. */
 
 .polygon51{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -991,6 +1035,7 @@ the animations with JS tomorrow. */
 
 .polygon52{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1000,6 +1045,7 @@ the animations with JS tomorrow. */
 
 .polygon53{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1009,6 +1055,7 @@ the animations with JS tomorrow. */
 
 .polygon54{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1018,6 +1065,7 @@ the animations with JS tomorrow. */
 
 .polygon55{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1027,6 +1075,7 @@ the animations with JS tomorrow. */
 
 .polygon56{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1036,6 +1085,7 @@ the animations with JS tomorrow. */
 
 .polygon57{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1045,6 +1095,7 @@ the animations with JS tomorrow. */
 
 .polygon58{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1054,6 +1105,7 @@ the animations with JS tomorrow. */
 
 .polygon59{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1063,6 +1115,7 @@ the animations with JS tomorrow. */
 
 .polygon60{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1072,6 +1125,7 @@ the animations with JS tomorrow. */
 
 .polygon61{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1081,6 +1135,7 @@ the animations with JS tomorrow. */
 
 .polygon62{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1090,6 +1145,7 @@ the animations with JS tomorrow. */
 
 .polygon63{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1099,6 +1155,7 @@ the animations with JS tomorrow. */
 
 .polygon64{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1108,6 +1165,7 @@ the animations with JS tomorrow. */
 
 .polygon65{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1117,6 +1175,7 @@ the animations with JS tomorrow. */
 
 .polygon66{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1126,6 +1185,7 @@ the animations with JS tomorrow. */
 
 .polygon67{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1135,6 +1195,7 @@ the animations with JS tomorrow. */
 
 .polygon68{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1144,6 +1205,7 @@ the animations with JS tomorrow. */
 
 .polygon69{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1153,6 +1215,7 @@ the animations with JS tomorrow. */
 
 .polygon70{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1162,6 +1225,7 @@ the animations with JS tomorrow. */
 
 .polygon71{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1171,6 +1235,7 @@ the animations with JS tomorrow. */
 
 .polygon72{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1180,6 +1245,7 @@ the animations with JS tomorrow. */
 
 .polygon73{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1189,6 +1255,7 @@ the animations with JS tomorrow. */
 
 .polygon74{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1198,6 +1265,7 @@ the animations with JS tomorrow. */
 
 .polygon75{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1207,6 +1275,7 @@ the animations with JS tomorrow. */
 
 .polygon76{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1216,6 +1285,7 @@ the animations with JS tomorrow. */
 
 .polygon77{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1225,6 +1295,7 @@ the animations with JS tomorrow. */
 
 .polygon78{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1234,6 +1305,7 @@ the animations with JS tomorrow. */
 
 .polygon79{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1243,6 +1315,7 @@ the animations with JS tomorrow. */
 
 .polygon80{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1252,6 +1325,7 @@ the animations with JS tomorrow. */
 
 .polygon81{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1261,6 +1335,7 @@ the animations with JS tomorrow. */
 
 .polygon82{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1270,6 +1345,7 @@ the animations with JS tomorrow. */
 
 .polygon83{
     position: absolute;
+    opacity: 0;
     z-index: 8;
     height: 100%;
     width: 100%;
@@ -1279,6 +1355,7 @@ the animations with JS tomorrow. */
 
 .polygon84{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1288,6 +1365,7 @@ the animations with JS tomorrow. */
 
 .polygon85{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1297,6 +1375,7 @@ the animations with JS tomorrow. */
 
 .polygon86{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1306,6 +1385,7 @@ the animations with JS tomorrow. */
 
 .polygon87{
     position: absolute;
+    opacity: 0;
     z-index: 11;
     height: 100%;
     width: 100%;
@@ -1315,6 +1395,7 @@ the animations with JS tomorrow. */
 
 .polygon88{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1324,6 +1405,7 @@ the animations with JS tomorrow. */
 
 .polygon89{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1333,6 +1415,7 @@ the animations with JS tomorrow. */
 
 .polygon90{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1342,6 +1425,7 @@ the animations with JS tomorrow. */
 
 .polygon91{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1354,6 +1438,7 @@ the animations with JS tomorrow. */
 
 .polygon92{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1363,6 +1448,7 @@ the animations with JS tomorrow. */
 
 .polygon93{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1372,6 +1458,7 @@ the animations with JS tomorrow. */
 
 .polygon94{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1381,6 +1468,7 @@ the animations with JS tomorrow. */
 
 .polygon95{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1390,6 +1478,7 @@ the animations with JS tomorrow. */
 
 .polygon96{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1399,6 +1488,7 @@ the animations with JS tomorrow. */
 
 .polygon97{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1411,6 +1501,7 @@ the animations with JS tomorrow. */
 
 .polygon98{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1423,6 +1514,7 @@ the animations with JS tomorrow. */
 
 .polygon99{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1435,6 +1527,7 @@ the animations with JS tomorrow. */
 
 .polygon100{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1447,6 +1540,7 @@ the animations with JS tomorrow. */
 
 .polygon101{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1459,6 +1553,7 @@ the animations with JS tomorrow. */
 
 .polygon102{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1471,6 +1566,7 @@ the animations with JS tomorrow. */
 
 .polygon103{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1483,6 +1579,7 @@ the animations with JS tomorrow. */
 
 .polygon104{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1495,6 +1592,7 @@ the animations with JS tomorrow. */
 
 .polygon105{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1508,6 +1606,7 @@ the animations with JS tomorrow. */
 
 .polygon106{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1521,6 +1620,7 @@ the animations with JS tomorrow. */
 
 .polygon107{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1534,6 +1634,7 @@ the animations with JS tomorrow. */
 
 .polygon108{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1547,6 +1648,7 @@ the animations with JS tomorrow. */
 
 .polygon109{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1560,6 +1662,7 @@ the animations with JS tomorrow. */
 
 .polygon110{
     position: absolute;
+    opacity: 0;
     z-index: 11;
     height: 100%;
     width: 100%;
@@ -1573,6 +1676,7 @@ the animations with JS tomorrow. */
 
 .polygon111{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1586,6 +1690,7 @@ the animations with JS tomorrow. */
 
 .polygon112{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1599,6 +1704,7 @@ the animations with JS tomorrow. */
 
 .polygon113{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1612,6 +1718,7 @@ the animations with JS tomorrow. */
 
 .polygon114{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1625,6 +1732,7 @@ the animations with JS tomorrow. */
 
 .polygon115{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1638,6 +1746,7 @@ the animations with JS tomorrow. */
 
 .polygon116{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1651,6 +1760,7 @@ the animations with JS tomorrow. */
 
 .polygon117{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1664,6 +1774,7 @@ the animations with JS tomorrow. */
 
 .polygon118{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1677,6 +1788,7 @@ the animations with JS tomorrow. */
 
 .polygon119{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1690,6 +1802,7 @@ the animations with JS tomorrow. */
 
 .polygon120{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1703,6 +1816,7 @@ the animations with JS tomorrow. */
 
 .polygon121{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1716,6 +1830,7 @@ the animations with JS tomorrow. */
 
 .polygon122{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1729,6 +1844,7 @@ the animations with JS tomorrow. */
 
 .polygon123{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1742,6 +1858,7 @@ the animations with JS tomorrow. */
 
 .polygon124{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1755,6 +1872,7 @@ the animations with JS tomorrow. */
 
 .polygon125{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1768,6 +1886,7 @@ the animations with JS tomorrow. */
 
 .polygon126{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1781,6 +1900,7 @@ the animations with JS tomorrow. */
 
 .polygon127{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1794,6 +1914,7 @@ the animations with JS tomorrow. */
 
 .polygon128{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1807,6 +1928,7 @@ the animations with JS tomorrow. */
 
 .polygon129{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1820,6 +1942,7 @@ the animations with JS tomorrow. */
 
 .polygon130{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1833,6 +1956,7 @@ the animations with JS tomorrow. */
 
 .polygon131{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1846,6 +1970,7 @@ the animations with JS tomorrow. */
 
 .polygon132{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1859,6 +1984,7 @@ the animations with JS tomorrow. */
 
 .polygon133{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1872,6 +1998,7 @@ the animations with JS tomorrow. */
 
 .polygon134{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1885,6 +2012,7 @@ the animations with JS tomorrow. */
 
 .polygon135{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1898,6 +2026,7 @@ the animations with JS tomorrow. */
 
 .polygon136{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1911,6 +2040,7 @@ the animations with JS tomorrow. */
 
 .polygon137{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1924,6 +2054,7 @@ the animations with JS tomorrow. */
 
 .polygon138{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1937,6 +2068,7 @@ the animations with JS tomorrow. */
 
 .polygon139{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1950,6 +2082,7 @@ the animations with JS tomorrow. */
 
 .polygon140{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1963,6 +2096,7 @@ the animations with JS tomorrow. */
 
 .polygon141{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1976,6 +2110,7 @@ the animations with JS tomorrow. */
 
 .polygon142{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -1989,6 +2124,7 @@ the animations with JS tomorrow. */
 
 .polygon143{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2002,6 +2138,7 @@ the animations with JS tomorrow. */
 
 .polygon144{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2015,6 +2152,7 @@ the animations with JS tomorrow. */
 
 .polygon145{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2028,6 +2166,7 @@ the animations with JS tomorrow. */
 
 .polygon146{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2041,6 +2180,7 @@ the animations with JS tomorrow. */
 
 .polygon147{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2054,6 +2194,7 @@ the animations with JS tomorrow. */
 
 .polygon148{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2068,6 +2209,7 @@ the animations with JS tomorrow. */
 
 .polygon149{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2082,6 +2224,7 @@ the animations with JS tomorrow. */
 
 .polygon150{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2096,6 +2239,7 @@ the animations with JS tomorrow. */
 
 .polygon151{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2109,6 +2253,7 @@ the animations with JS tomorrow. */
 
 .polygon152{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2123,6 +2268,7 @@ the animations with JS tomorrow. */
 
 .polygon153{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2137,6 +2283,7 @@ the animations with JS tomorrow. */
 
 .polygon154{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2151,6 +2298,7 @@ the animations with JS tomorrow. */
 
 .polygon155{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2165,6 +2313,7 @@ the animations with JS tomorrow. */
 
 .polygon156{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2179,6 +2328,7 @@ the animations with JS tomorrow. */
 
 .polygon157{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2193,6 +2343,7 @@ the animations with JS tomorrow. */
 
 .polygon158{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2207,6 +2358,7 @@ the animations with JS tomorrow. */
 
 .polygon159{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2221,6 +2373,7 @@ the animations with JS tomorrow. */
 
 .polygon160{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2234,6 +2387,7 @@ the animations with JS tomorrow. */
 
 .polygon161{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2247,6 +2401,7 @@ the animations with JS tomorrow. */
 
 .polygon162{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2260,6 +2415,7 @@ the animations with JS tomorrow. */
 
 .polygon163{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2273,6 +2429,7 @@ the animations with JS tomorrow. */
 
 .polygon164{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2286,6 +2443,7 @@ the animations with JS tomorrow. */
 
 .polygon165{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2299,6 +2457,7 @@ the animations with JS tomorrow. */
 
 .polygon166{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2312,6 +2471,7 @@ the animations with JS tomorrow. */
 
 .polygon167{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2325,6 +2485,7 @@ the animations with JS tomorrow. */
 
 .polygon168{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2338,6 +2499,7 @@ the animations with JS tomorrow. */
 
 .polygon169{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2351,6 +2513,7 @@ the animations with JS tomorrow. */
 
 .polygon170{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2364,6 +2527,7 @@ the animations with JS tomorrow. */
 
 .polygon171{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2377,6 +2541,7 @@ the animations with JS tomorrow. */
 
 .polygon172{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2390,6 +2555,7 @@ the animations with JS tomorrow. */
 
 .polygon173{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2403,6 +2569,7 @@ the animations with JS tomorrow. */
 
 .polygon174{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2416,6 +2583,7 @@ the animations with JS tomorrow. */
 
 .polygon175{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2429,6 +2597,7 @@ the animations with JS tomorrow. */
 
 .polygon176{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2442,6 +2611,7 @@ the animations with JS tomorrow. */
 
 .polygon177{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2455,6 +2625,7 @@ the animations with JS tomorrow. */
 
 .polygon178{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2468,6 +2639,7 @@ the animations with JS tomorrow. */
 
 .polygon179{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2481,6 +2653,7 @@ the animations with JS tomorrow. */
 
 .polygon180{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2494,6 +2667,7 @@ the animations with JS tomorrow. */
 
 .polygon181{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2507,6 +2681,7 @@ the animations with JS tomorrow. */
 
 .polygon182{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2520,6 +2695,7 @@ the animations with JS tomorrow. */
 
 .polygon183{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2533,6 +2709,7 @@ the animations with JS tomorrow. */
 
 .polygon184{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2546,6 +2723,7 @@ the animations with JS tomorrow. */
 
 .polygon185{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2559,6 +2737,7 @@ the animations with JS tomorrow. */
 
 .polygon186{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2572,6 +2751,7 @@ the animations with JS tomorrow. */
 
 .polygon187{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2585,6 +2765,7 @@ the animations with JS tomorrow. */
 
 .polygon188{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2598,6 +2779,7 @@ the animations with JS tomorrow. */
 
 .polygon189{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2611,6 +2793,7 @@ the animations with JS tomorrow. */
 
 .polygon190{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2624,6 +2807,7 @@ the animations with JS tomorrow. */
 
 .polygon191{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2637,6 +2821,7 @@ the animations with JS tomorrow. */
 
 .polygon192{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2650,6 +2835,7 @@ the animations with JS tomorrow. */
 
 .polygon193{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2663,6 +2849,7 @@ the animations with JS tomorrow. */
 
 .polygon194{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2676,6 +2863,7 @@ the animations with JS tomorrow. */
 
 .polygon195{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2689,6 +2877,7 @@ the animations with JS tomorrow. */
 
 .polygon196{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2702,6 +2891,7 @@ the animations with JS tomorrow. */
 
 .polygon197{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2715,6 +2905,7 @@ the animations with JS tomorrow. */
 
 .polygon198{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2728,6 +2919,7 @@ the animations with JS tomorrow. */
 
 .polygon199{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2741,6 +2933,7 @@ the animations with JS tomorrow. */
 
 .polygon200{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2754,6 +2947,7 @@ the animations with JS tomorrow. */
 
 .polygon201{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2767,6 +2961,7 @@ the animations with JS tomorrow. */
 
 .polygon202{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2780,6 +2975,7 @@ the animations with JS tomorrow. */
 
 .polygon203{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2793,6 +2989,7 @@ the animations with JS tomorrow. */
 
 .polygon204{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2806,6 +3003,7 @@ the animations with JS tomorrow. */
 
 .polygon205{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2819,6 +3017,7 @@ the animations with JS tomorrow. */
 
 .polygon206{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2832,6 +3031,7 @@ the animations with JS tomorrow. */
 
 .polygon207{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2845,6 +3045,7 @@ the animations with JS tomorrow. */
 
 .polygon208{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2858,6 +3059,7 @@ the animations with JS tomorrow. */
 
 .polygon209{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2871,6 +3073,7 @@ the animations with JS tomorrow. */
 
 .polygon210{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2884,6 +3087,7 @@ the animations with JS tomorrow. */
 
 .polygon211{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2897,6 +3101,7 @@ the animations with JS tomorrow. */
 
 .polygon212{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2910,6 +3115,7 @@ the animations with JS tomorrow. */
 
 .polygon213{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2923,6 +3129,7 @@ the animations with JS tomorrow. */
 
 .polygon214{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2936,6 +3143,7 @@ the animations with JS tomorrow. */
 
 .polygon215{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2949,6 +3157,7 @@ the animations with JS tomorrow. */
 
 .polygon216{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2962,6 +3171,7 @@ the animations with JS tomorrow. */
 
 .polygon217{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2975,6 +3185,7 @@ the animations with JS tomorrow. */
 
 .polygon218{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -2988,6 +3199,7 @@ the animations with JS tomorrow. */
 
 .polygon219{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3001,6 +3213,7 @@ the animations with JS tomorrow. */
 
 .polygon220{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3014,6 +3227,7 @@ the animations with JS tomorrow. */
 
 .polygon221{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3027,6 +3241,7 @@ the animations with JS tomorrow. */
 
 .polygon222{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3040,6 +3255,7 @@ the animations with JS tomorrow. */
 
 .polygon223{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3053,6 +3269,7 @@ the animations with JS tomorrow. */
 
 .polygon224{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3066,6 +3283,7 @@ the animations with JS tomorrow. */
 
 .polygon225{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3079,6 +3297,7 @@ the animations with JS tomorrow. */
 
 .polygon226{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3092,6 +3311,7 @@ the animations with JS tomorrow. */
 
 .polygon227{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3105,6 +3325,7 @@ the animations with JS tomorrow. */
 
 .polygon228{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3118,6 +3339,7 @@ the animations with JS tomorrow. */
 
 .polygon229{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3131,6 +3353,7 @@ the animations with JS tomorrow. */
 
 .polygon230{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3144,6 +3367,7 @@ the animations with JS tomorrow. */
 
 .polygon231{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3157,6 +3381,7 @@ the animations with JS tomorrow. */
 
 .polygon232{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3170,6 +3395,7 @@ the animations with JS tomorrow. */
 
 .polygon233{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3183,6 +3409,7 @@ the animations with JS tomorrow. */
 
 .polygon234{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3196,6 +3423,7 @@ the animations with JS tomorrow. */
 
 .polygon235{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3209,6 +3437,7 @@ the animations with JS tomorrow. */
 
 .polygon236{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3222,6 +3451,7 @@ the animations with JS tomorrow. */
 
 .polygon237{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3235,6 +3465,7 @@ the animations with JS tomorrow. */
 
 .polygon238{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3248,6 +3479,7 @@ the animations with JS tomorrow. */
 
 .polygon239{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3261,6 +3493,7 @@ the animations with JS tomorrow. */
 
 .polygon240{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3274,6 +3507,7 @@ the animations with JS tomorrow. */
 
 .polygon241{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3287,6 +3521,7 @@ the animations with JS tomorrow. */
 
 .polygon242{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3300,6 +3535,7 @@ the animations with JS tomorrow. */
 
 .polygon243{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3313,6 +3549,7 @@ the animations with JS tomorrow. */
 
 .polygon244{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3326,6 +3563,7 @@ the animations with JS tomorrow. */
 
 .polygon245{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3339,6 +3577,7 @@ the animations with JS tomorrow. */
 
 .polygon246{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3352,6 +3591,7 @@ the animations with JS tomorrow. */
 
 .polygon247{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3365,6 +3605,7 @@ the animations with JS tomorrow. */
 
 .polygon248{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3378,6 +3619,7 @@ the animations with JS tomorrow. */
 
 .polygon249{
     position: absolute;
+    opacity: 0;
     z-index: 10;
     height: 100%;
     width: 100%;
@@ -3388,6 +3630,8 @@ the animations with JS tomorrow. */
         75.1% 74.3%
         );
 }
+
+
 
 .polygonEnd{
     color: white;
