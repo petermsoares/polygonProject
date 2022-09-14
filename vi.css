@@ -449,17 +449,6 @@ isn't too small must be done in the future.*/
       }
 }
 
-.container__Vi{
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%; 
-    /* background-color: white; */
-    height: 88vw;
-    width: 100vw;
-    max-width: 1200px;
-    max-height: 1056px;
-}
-
 .hero__section__triangle__fill{
     position: absolute;
     height: 100%;
@@ -486,6 +475,46 @@ isn't too small must be done in the future.*/
     );
 }
 
+.container__Vi{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%; 
+    /* background-color: white; */
+    height: 88vw;
+    width: 100vw;
+    max-width: 1200px;
+    max-height: 1056px;
+}
+
+
+
+.viDescriptoin__Fade{
+    animation: viFade;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes viFade{
+    0%{opacity: 0;}
+
+    100%{opacity: 1}
+
+}
+
+.viDescription {
+    opacity: 0;
+    font-family: monospace;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    z-index: 20;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+}
+
 .viPolygonAnimate{
     animation: polyMoveVi;
     animation-duration: 1000ms;
@@ -510,6 +539,8 @@ one single animation starting location for
 each artwork, and do a minor delay in time
 to achieve an animated effect.*/
 }
+
+
 
 .polygon1{
     position: absolute;

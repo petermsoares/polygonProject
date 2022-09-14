@@ -1,9 +1,9 @@
 const viPolygons = document.querySelectorAll(".viPolygon")
 const viPolygonSection = document.querySelectorAll(".polygon165")
+const viDescription = document.querySelectorAll(".viDescription")
 
 
-
-const observer = new IntersectionObserver(entries => {
+const observerViPolygon = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
         if(!entry.isIntersecting){
             return
@@ -13,7 +13,8 @@ const observer = new IntersectionObserver(entries => {
             viPolygons.forEach((piece, i) => { 
                 setTimeout(() => {               
             piece.classList.add("viPolygonAnimate")
-            }, i * 20);   
+            }, i * 20);
+            
         
         })      
     }
@@ -21,7 +22,29 @@ const observer = new IntersectionObserver(entries => {
 })
 
 viPolygonSection.forEach(section => {
-    observer.observe(section)
+    observerViPolygon.observe(section)
+})
+
+const observerViDescription = new IntersectionObserver(entries => {
+    entries.forEach(entry =>{
+        if(!entry.isIntersecting){
+            return
+        }
+        else{    
+            
+            viDescription.forEach((description) => { 
+                setTimeout(() => {               
+            description.classList.add("viDescriptoin__Fade")
+            }, 6500);
+            
+        
+        })      
+    }
+    })
+})
+
+viPolygonSection.forEach(section => {
+    observerViDescription.observe(section)
 })
 
 
