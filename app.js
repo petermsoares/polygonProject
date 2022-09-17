@@ -1,5 +1,5 @@
 const viPolygons = document.querySelectorAll(".viPolygon")
-const viPolygonSection = document.querySelectorAll(".polygon165")
+const viPolygonSection = document.querySelectorAll(".polygon222")
 const viDescription = document.querySelectorAll(".viDescription")
 
 

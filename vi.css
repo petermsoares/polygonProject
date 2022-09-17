@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --white: #dddddd;
+}
+
 body{
     width: 100vw;
     background-color: #6e6e6e;
@@ -37,20 +41,19 @@ nested in this div. Necessary for mobile. */
     max-height: 1200px;
 }
 
-@media screen and (max-width: 800px) {
-/*Because our overflow is hidden, when
-we increase the size of the hero section,
-which is used as a reference for our
-polygon positions, we won't get weird
-horizontal scrolling issues. Some mobile
-devices have very high pixel density, so
-checking each one to make sure the animation
-isn't too small must be done in the future.*/
+@media only screen and (max-width: 900px) {
+
     .hero__section{
         height: 1000px;
-        width: 1000px;
-    }
+        width: 1000px;}
+
+    .hero__section__title{
+        font-size: 30px;}
 }
+
+
+
+
 
 
 
@@ -61,13 +64,7 @@ isn't too small must be done in the future.*/
     position: absolute;
     font-size: 40px;
     font-family: monospace;
-    color: #ffee55;
-}
-
-@media only screen and (max-width: 800px) {
-  .hero__section__title{
-    font-size: 30px;
-  }
+    color: var(--white);
 }
 
 .flicker{
@@ -116,7 +113,7 @@ isn't too small must be done in the future.*/
     position: absolute;
     font-size: 30px;
     font-family: monospace;
-    color: #ffee55;
+    color: var(--white);
     opacity: 0;
 
 
@@ -156,7 +153,7 @@ isn't too small must be done in the future.*/
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffee55;
+    background-color: var(--white);
     top: 39.1%;
     left: 37.8%;
     transform: translate(-10px, -10px);
@@ -257,7 +254,7 @@ isn't too small must be done in the future.*/
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffee55;
+    background-color: var(--white);
     top: 60.4%;
     left: 50%;
     transform: translate(-10px, -10px);
@@ -357,7 +354,7 @@ isn't too small must be done in the future.*/
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffee55;
+    background-color: var(--white);
     top: 39.1%;
     left: 62.2%;
     transform: translate(-10px, -10px);
@@ -454,7 +451,7 @@ isn't too small must be done in the future.*/
     height: 100%;
     width: 100%;
     background-color:#c5beb9;
-    background-color:#fff455;
+    background-color:var(--white);
     clip-path: polygon(
         37.4% 39%,
         50% 60.9%,
@@ -475,10 +472,18 @@ isn't too small must be done in the future.*/
     );
 }
 
+
+    
+.wrapper__Vi{
+        height: 100vh;
+        /* background-color: white; */
+    }
+
 .container__Vi{
     position: relative;
-    transform: translateX(-50%);
-    left: 50%; 
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
     /* background-color: white; */
     height: 88vw;
     width: 100vw;
@@ -486,6 +491,22 @@ isn't too small must be done in the future.*/
     max-height: 1056px;
 }
 
+.zenitsu__wrapper{
+    height: 100vh;
+}
+
+.container__all{
+    position: relative;
+    margin: 100px auto 100px auto;
+    height: 100vw;
+    width: 100vw;
+    max-width: 1200px;
+    max-height: 1200px;
+/* Use this container for all artworks other than
+Vi. Using a 1000x1000 pixel grid makes it easier
+to position the % values for the polygons. Keep Vi's
+container because it was based on a 1000x880 grid. */
+}
 
 
 .viDescriptoin__Fade{
@@ -514,6 +535,12 @@ isn't too small must be done in the future.*/
     list-style-type: none;
     text-align: right;
 }
+
+/* The viPolyAnimate class attatches to all of the
+viPolygon divs when triggered by JS intersection
+observer. This class has an attached animation
+that starts from the center of the screen to
+each polygon's final position.*/
 
 .viPolygonAnimate{
     animation: polyMoveVi;
@@ -551,7 +578,6 @@ to achieve an animated effect.*/
     clip-path: polygon(15% 1.6%, 25.7% 15.2%, 24.4% 22.9%);
     opacity: 0;
 }
-
 
 .polygon2{
     position: absolute;
@@ -1866,7 +1892,7 @@ the animations with JS tomorrow. */
     z-index: 10;
     height: 100%;
     width: 100%;
-    background-color: #D8B08D;
+    background-color: #cfa885;
     clip-path: polygon(
         19.4% 56.5%,  
         22.3% 52.0%,
@@ -3277,7 +3303,7 @@ the animations with JS tomorrow. */
     z-index: 10;
     height: 100%;
     width: 100%;
-    background-color: #9C664A;
+    background-color: #945d42;
     clip-path: polygon(
         46.0% 81.8%,  
         42.7% 85.2%, 
@@ -3663,7 +3689,333 @@ the animations with JS tomorrow. */
         );
 }
 
+/* Zenitsu Polygons */
 
+.zpolygon1{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #FAE57F;
+    clip-path: polygon(
+        3.2% 23.3%,
+        7.4% 18%,
+        4.2% 25%
+    );
+}
+
+.zpolygon2{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2d072;
+    clip-path: polygon(
+        7.4% 18%,
+        5.35% 20.6%,
+        4.5% 18.6%
+    );
+}
+
+.zpolygon3{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f7e27e;
+    clip-path: polygon(
+        7.4% 18%,
+        7.8% 16.7%,
+        4.5% 18.6%
+    );
+}
+
+.zpolygon4{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eeda78;
+    clip-path: polygon(
+        7.4% 18%,
+        7.8% 16.7%,
+        9.9% 17.5%
+    );
+}
+
+.zpolygon5{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fcea91;
+    clip-path: polygon(
+        10.3% 14.4%,
+        7.8% 16.7%,
+        9.9% 17.5%
+    );
+}
+
+.zpolygon6{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #faedad;
+    clip-path: polygon(
+        8.6% 14.7%,
+        7.8% 16.7%,
+        10.3% 14.4%
+    );
+}
+
+.zpolygon7{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e4d279;
+    clip-path: polygon(
+        10.3% 14.4%,
+        11.2% 14.9%,
+        9.9% 17.5%
+    );
+}
+
+.zpolygon8{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f3e59d;
+    clip-path: polygon(
+        10.3% 14.4%,
+        11.2% 14.9%,
+        15.6% 11.8%
+    );
+}
+
+.zpolygon9{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eedc80;
+    clip-path: polygon(
+        17.3% 14.5%,
+        11.2% 14.9%,
+        15.6% 11.8%
+    );
+}
+
+.zpolygon10{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e7d36f;
+    clip-path: polygon(
+        17.3% 14.5%,
+        20.4% 14.4%,
+        15.6% 11.8%
+    );
+}
+
+.zpolygon11{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e7d475;
+    clip-path: polygon(
+        17.3% 14.5%,
+        20.4% 14.4%,
+        20.6% 16.1%
+    );
+}
+
+.zpolygon12{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e6d378;
+    clip-path: polygon(
+        23.9% 17.1%,
+        20.4% 14.4%,
+        20.6% 16.1%
+    );
+}
+
+.zpolygon13{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e0cc69;
+    clip-path: polygon(
+        23.9% 17.1%,
+        20.4% 14.4%,
+        23% 14.4%
+    );
+}
+
+.zpolygon14{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ebda85;
+    clip-path: polygon(
+        23.9% 17.1%,
+        22.8% 20.7%,
+        20.6% 16.1%
+    );
+}
+
+.zpolygon15{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ecdd90;
+    clip-path: polygon(
+        20% 18.6%,
+        22.8% 20.7%,
+        20.6% 16.1%
+    );
+}
+
+.zpolygon16{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e7d67d;
+    clip-path: polygon(
+        20% 18.6%,
+        18.8% 15.22%,
+        20.6% 16.1%
+    );
+}
+
+.zpolygon17{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ecdc8a;
+    clip-path: polygon(
+        20% 18.6%,
+        18.8% 15.22%,
+        11.2% 14.9%
+    );
+}
+
+.zpolygon18{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dfcd77;
+    clip-path: polygon(
+        20.6% 16.1%,
+        11.2% 14.9%,
+        17.3% 14.5%
+    );
+}
+
+.zpolygon19{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eedb7f;
+    clip-path: polygon(
+        20% 18.6%,
+        9.9% 17.5%,
+        11.2% 14.9%
+    );
+}
+
+.zpolygon20{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1e293;
+    clip-path: polygon(
+        17.6% 18.34%,
+        9.9% 17.5%,
+        17.7% 20.8%
+    );
+}
+
+.zpolygon21{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2d283;
+    clip-path: polygon(
+        17.6% 18.34%,
+        20% 18.6%,
+        17.7% 20.8%
+    );
+}
+
+.zpolygon22{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1e087;
+    clip-path: polygon(
+        20% 24.1%,
+        20% 18.6%,
+        17.7% 20.8%
+    );
+}
+
+
+.zpolygon23{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2d17a;
+    clip-path: polygon(
+        20% 24.1%,
+        20% 18.6%,
+        22.2% 20.25%
+    );
+}
+
+.zpolygon24{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #DE845F;
+    clip-path: polygon(
+        20% 24.1%,
+        21.5% 26.8%,
+        22.2% 20.25%
+    );
+}
+
+.zpolygon25{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ce7450;
+    clip-path: polygon(
+        24.7% 22.1%,
+        21.5% 26.8%,
+        22.2% 20.25%
+    );
+}
 
 .polygonEnd{
     color: white;
