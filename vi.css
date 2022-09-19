@@ -3690,7 +3690,7 @@ the animations with JS tomorrow. */
 }
 
 /* Zenitsu Polygons */
-
+/* 
 .zpolygon1{
     position: absolute;
     z-index: 10;
@@ -5411,6 +5411,1448 @@ the animations with JS tomorrow. */
     20.1% 49.7%
     )
 }
+
+.zpolygon133{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1ab5f;
+    clip-path: polygon(
+    20.8% 44.8%,
+    15.8% 49.4%,
+    16.9% 43.75%
+    )
+}
+
+.zpolygon134{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    20.8% 44.8%,
+    19.4% 42.2%,
+    16.9% 43.75%
+    )
+}
+
+.zpolygon135{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffc15e;
+    clip-path: polygon(
+    20.8% 44.8%,
+    19.4% 42.2%,
+    22.9% 41%
+    )
+}
+
+.zpolygon136{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fcc265;
+    clip-path: polygon(
+    20.3% 40.5%,
+    19.4% 42.2%,
+    22.9% 41%
+    )
+}
+
+.zpolygon137{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffc971;
+    clip-path: polygon(
+    20.3% 40.5%,
+    19.4% 42.2%,
+    18.1% 38.1%
+    )
+}
+
+.zpolygon138{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffcf81;
+    clip-path: polygon(
+    20.3% 40.5%,
+    20.3% 37.9%,
+    18.1% 38.1%
+    )
+}
+
+.zpolygon139{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffc973;
+    clip-path: polygon(
+    18.9% 35.7%,
+    20.3% 37.9%,
+    18.1% 38.1%
+    )
+}
+
+.zpolygon140{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f7c87c;
+    clip-path: polygon(
+    18.9% 35.7%,
+    17.3% 35.7%,
+    18.1% 38.1%
+    )
+}
+
+.zpolygon141{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f5bc61;
+    clip-path: polygon(
+    18.9% 35.7%,
+    20.3% 37.9%,
+    22% 37.9%
+    )
+}
+
+.zpolygon142{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fdc66d;
+    clip-path: polygon(
+    18.9% 35.7%,
+    20.3% 33.8%,
+    22% 37.9%
+    )
+}
+
+.zpolygon143{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #303030;
+    clip-path: polygon(
+    27.7% 39.2%,
+    20.3% 33.8%,
+    22% 37.9%
+    )
+}
+
+.zpolygon144{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #3b3b3b;
+    clip-path: polygon(
+    27.7% 39.2%,
+    20.3% 33.8%,
+    22.8% 33.4%
+    )
+}
+
+.zpolygon145{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #505050;
+    clip-path: polygon(
+    27.7% 39.2%,
+    25.5% 26.7%,
+    22.8% 33.4%
+    )
+}
+
+.zpolygon146{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    21.5% 32%,
+    25.5% 26.7%,
+    22.8% 33.4%
+    )
+}
+
+.zpolygon147{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #d1d1d1;
+    clip-path: polygon(
+    21.5% 32%,
+    20.3% 33.8%,
+    22.8% 33.4%
+    )
+}
+
+.zpolygon148{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e6b5a2;
+    clip-path: polygon(
+    21.5% 32%,
+    25.5% 26.7%,
+    22.3% 29.1%
+    )
+}
+
+.zpolygon149{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eec2b0;
+    clip-path: polygon(
+    21.5% 32%,
+    21.5% 26.8%,
+    22.3% 29.1%
+    )
+}
+
+.zpolygon150{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #faccba;
+    clip-path: polygon(
+    21.5% 32%,
+    21.5% 26.8%,
+    20.6% 29.1%
+    )
+}
+
+.zpolygon151{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dfa48d;
+    clip-path: polygon(
+    20% 24.1%,
+    21.5% 26.8%,
+    20.6% 29.1%
+    )
+}
+
+.zpolygon152{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ecb8a3;
+    clip-path: polygon(
+    25.5% 26.7%,
+    21.5% 26.8%,
+    22.3% 29.1%
+    )
+}
+
+.zpolygon153{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f3dc76;
+    clip-path: polygon(
+    25.5% 26.7%,
+    21.5% 26.8%,
+    24.7% 22.1%
+    )
+}
+
+.zpolygon154{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffec96;
+    clip-path: polygon(
+    25.5% 26.7%,
+    26.4% 21.4%,
+    24.7% 22.1%
+    )
+}
+
+.zpolygon155{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f8e48b;
+    clip-path: polygon(
+    25.5% 26.7%,
+    26.4% 21.4%,
+    28.8% 23.5%
+    )
+}
+
+.zpolygon156{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffd48e;
+    clip-path: polygon(
+    29% 21.6%,
+    26.4% 21.4%,
+    28.8% 23.5%
+    )
+}
+.zpolygon157{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c781;
+    clip-path: polygon(
+    29% 21.6%,
+    31% 25.2%,
+    28.8% 23.5%
+    )
+}
+.zpolygon158{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    28.4% 26.4%,
+    31% 25.2%,
+    28.8% 23.5%
+    )
+}
+
+.zpolygon159{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e9d479;
+    clip-path: polygon(
+    28.4% 26.4%,
+    25.5% 26.7%,
+    28.8% 23.5%
+    )
+}
+
+.zpolygon160{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffeea4;
+    clip-path: polygon(
+    28.4% 26.4%,
+    25.5% 26.7%,
+    28.2% 29%
+    )
+}
+
+.zpolygon161{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fae791;
+    clip-path: polygon(
+    28.4% 26.4%,
+    31.6% 31.8%,
+    28.2% 29%
+    )
+}
+
+.zpolygon162{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2be81;
+    clip-path: polygon(
+    31.4% 35.1%,
+    31.6% 31.8%,
+    25.5% 26.7%
+    )
+}
+
+.zpolygon163{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #535353;
+    clip-path: polygon(
+    32.2% 36.2%,
+    29% 37.4%,
+    25.5% 26.7%
+    )
+}
+
+.zpolygon164{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #3b3b3b;
+    clip-path: polygon(
+    27.7% 39.2%,
+    29% 37.4%,
+    25.5% 26.7%
+    )
+}
+
+.zpolygon165{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    31.4% 35.1%,
+    31.6% 31.8%,
+    34.6% 33.8%
+    )
+}
+
+.zpolygon166{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dab473;
+    clip-path: polygon(
+    31.4% 35.1%,
+    32.2% 36.2%,
+    34.6% 33.8%
+    )
+}
+
+.zpolygon167{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e9c587;
+    clip-path: polygon(
+    31% 25.2%,
+    31.6% 31.8%,
+    34.6% 33.8%
+    )
+}
+
+.zpolygon168{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eece97;
+    clip-path: polygon(
+    31% 25.2%,
+    31.6% 31.8%,
+    28.4% 26.4%
+    )
+}
+
+.zpolygon169{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffc508;
+    clip-path: polygon(
+    20.3% 40.5%,
+    20.3% 37.9%,
+    22% 37.9%
+    )
+}
+
+.zpolygon170{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ececec;
+    clip-path: polygon(
+    22% 37.9%,
+    37.9% 41.6%,
+    37.2% 44.1%,
+    20.3% 40.5%    
+    )
+}
+
+.zpolygon171{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    22.8% 38.7%,
+    23.7% 39.8%,
+    22.3% 40.2%  
+    )
+}
+
+.zpolygon172{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    24.7% 39.1%,
+    25.6% 40.2%,
+    24.2% 40.6% 
+    )
+}
+
+.zpolygon173{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    26.8% 39.6%,
+    27.7% 40.7%,
+    26.3% 41.1%
+    )
+}
+
+.zpolygon174{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    28.6% 40%,
+    29.5% 41.1%,
+    28.1% 41.5%
+    )
+}
+
+.zpolygon175{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    30.5% 40.4%,
+    31.4% 41.5%,
+    30% 41.9%
+    )
+}
+
+.zpolygon176{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    32.3% 40.8%,
+    33.2% 41.9%,
+    31.8% 42.3%
+    )
+}
+
+.zpolygon177{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    34.1% 41.2%,
+    35% 42.3%,
+    33.6% 42.7%
+    )
+}
+
+.zpolygon178{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f0d352;
+    clip-path: polygon(
+    35.8% 41.6%,
+    36.7% 42.7%,
+    35.3% 43.1%
+    )
+}
+
+.zpolygon179{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #FCDAC4;
+    clip-path: polygon(
+    27.7% 39.25%,
+    29.3% 39.6%,
+    29% 37.4%
+    )
+}
+
+.zpolygon180{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e7c2a9;
+    clip-path: polygon(
+    30.2% 37.8%,
+    29.3% 39.6%,
+    29% 37.4%
+    )
+}
+
+.zpolygon181{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e0b192;
+    clip-path: polygon(
+    30.2% 37.8%,
+    32.3% 36.2%,
+    29% 37.4%
+    )
+}
+
+.zpolygon182{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #464646;
+    clip-path: polygon(
+    30.2% 37.8%,
+    29.3% 39.6%,
+    32.3% 36.2%
+    )
+}
+
+.zpolygon183{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #FCDAC4;
+    clip-path: polygon(
+    32.6% 37.3%,
+    29.3% 39.6%,
+    32.3% 36.2%
+    )
+}
+
+.zpolygon184{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e7c2a9;
+    clip-path: polygon(
+    32.6% 37.3%,
+    29.3% 39.6%,
+    30.8% 39.95%
+    )
+}
+
+.zpolygon185{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffe5d4;
+    clip-path: polygon(
+    32.6% 37.3%,
+    35.5% 36.4%,
+    32.3% 36.2%
+    )
+}
+
+.zpolygon186{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1d0ba;
+    clip-path: polygon(
+    32.6% 37.3%,
+    35.5% 36.4%,
+    33.5% 38%
+    )
+}
+
+.zpolygon187{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ebc3a9;
+    clip-path: polygon(
+    32.6% 37.3%,
+    32.1% 40.2%,
+    33.5% 38%
+    )
+}
+
+.zpolygon188{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1d3bf;
+    clip-path: polygon(
+    32.6% 37.3%,
+    32.1% 40.25%,
+    30.8% 39.95%
+    )
+}
+
+.zpolygon189{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #4e4e4e;
+    clip-path: polygon(
+    32.6% 37.3%,
+    30.5% 39.88%,
+    30.8% 39.95%
+    )
+}
+
+.zpolygon190{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dab473;
+    clip-path: polygon(
+    32.6% 37.3%,
+    35.5% 36.4%,
+    32.7% 37.4%
+    )
+}
+
+.zpolygon191{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dab473;
+    clip-path: polygon(
+    34.1% 38.2%,
+    35.5% 36.4%,
+    33.5% 38%
+    )
+}
+
+.zpolygon192{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #4e4e4e;
+    clip-path: polygon(
+    34.1% 38.2%,
+    32.1% 40.2%,
+    33.5% 38%
+    )
+}
+
+.zpolygon193{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c2a3;
+    clip-path: polygon(
+    34.1% 38.2%,
+    32.1% 40.25%,
+    33.3% 40.53%
+    )
+}
+
+.zpolygon194{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c4a6;
+    clip-path: polygon(
+    34.1% 38.2%,
+    34.7% 38.8%,
+    33.3% 40.53%
+    )
+}
+
+.zpolygon195{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e9b795;
+    clip-path: polygon(
+    34.1% 38.2%,
+    34.7% 38.8%,
+    36.5% 37.35%
+    )
+}
+
+.zpolygon196{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c67a;
+    clip-path: polygon(
+    36.9% 41.35%,
+    34.7% 38.8%,
+    36.5% 37.35%
+    )
+}
+
+.zpolygon197{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #474747;
+    clip-path: polygon(
+    36.9% 41.35%,
+    34.7% 38.8%,
+    33.3% 40.53%
+    )
+}
+
+.zpolygon198{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c67a;
+    clip-path: polygon(
+    34.1% 38.2%,
+    35.5% 36.4%,
+    36.5% 37.35%
+    )
+}
+
+.zpolygon199{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1c67a;
+    clip-path: polygon(
+    34.6% 33.8%,
+    35.5% 36.4%,
+    32.2% 36.2%
+    )
+}
+
+.zpolygon200{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e0b261;
+    clip-path: polygon(
+    34.6% 33.8%,
+    35.5% 36.4%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon201{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2b76c;
+    clip-path: polygon(
+    34.6% 33.8%,
+    33.05% 30.1%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon202{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f5e28e;
+    clip-path: polygon(
+    38.6% 26.1%,
+    33.05% 30.1%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon203{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffeb92;
+    clip-path: polygon(
+    38.6% 26.1%,
+    33.05% 30.1%,
+    34.9% 27.4%
+    )
+}
+
+.zpolygon204{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eed97d;
+    clip-path: polygon(
+    31% 25.2%,
+    33.05% 30.1%,
+    34.9% 27.4%
+    )
+}
+
+.zpolygon205{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f7e38a;
+    clip-path: polygon(
+    31% 25.2%,
+    29% 21.6%,
+    34.9% 27.4%
+    )
+}
+
+.zpolygon206{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fae899;
+    clip-path: polygon(
+    38.4% 22.4%,
+    29% 21.6%,
+    34.9% 27.4%
+    )
+}
+
+.zpolygon207{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    36.9% 24.55%,
+    38.6% 26.1%,
+    34.9% 27.4%
+    )
+}
+
+.zpolygon208{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fae899;
+    clip-path: polygon(
+    36.9% 24.55%,
+    38.6% 26.1%,
+    38.4% 22.4%
+    )
+}
+
+.zpolygon209{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f7e7a1;
+    clip-path: polygon(
+    38.4% 22.4%,
+    29% 21.6%,
+    41.4% 19.3%
+    )
+}
+
+.zpolygon210{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #fff1b1;
+    clip-path: polygon(
+    32% 19.6%,
+    29% 21.6%,
+    41.4% 19.3%
+    )
+}
+
+.zpolygon211{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eeda82;
+    clip-path: polygon(
+    38.4% 22.4%,
+    42.16% 18.5%,
+    43.7% 19.5%
+    )
+}
+
+.zpolygon212{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f5e393;
+    clip-path: polygon(
+    38.4% 22.4%,
+    49.1% 19.2%,
+    43.7% 19.5%
+    )
+}
+
+.zpolygon213{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f1dd7f;
+    clip-path: polygon(
+    38.4% 22.4%,
+    49.1% 19.2%,
+    47.3% 24.3%
+    )
+}
+
+.zpolygon214{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f8e696;
+    clip-path: polygon(
+    38.4% 22.4%,
+    45.5% 27.6%,
+    47.3% 24.3%
+    )
+}
+
+.zpolygon215{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+    43.8% 23.6%,
+    44.9% 25%,
+    42.8% 25.6%
+    )
+}
+
+.zpolygon216{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ebd885;
+    clip-path: polygon(
+    38.4% 22.4%,
+    45.5% 27.6%,
+    44.7% 29.5%
+    )
+}
+
+.zpolygon217{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffeea3;
+    clip-path: polygon(
+    38.4% 22.4%,
+    42.3% 31.7%,
+    44.7% 29.5%
+    )
+}
+
+.zpolygon218{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ebd988;
+    clip-path: polygon(
+    38.4% 22.4%,
+    42.3% 31.7%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon219{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #eebb78;
+    clip-path: polygon(
+    43.8% 36.4%,
+    42.3% 31.7%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon220{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dba866;
+    clip-path: polygon(
+    43.8% 36.4%,
+    37.6% 38.4%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon221{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e4b373;
+    clip-path: polygon(
+    35.5% 36.4%,
+    37.6% 38.4%,
+    38.9% 34.4%
+    )
+}
+
+.zpolygon222{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #d8ab6f;
+    clip-path: polygon(
+    36.5% 37.35%,
+    36.9% 41.3%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon223{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ecd3b5;
+    clip-path: polygon(
+    43.8% 36.4%,
+    37.6% 38.4%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon224{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2c6a3;
+    clip-path: polygon(
+    43.8% 36.4%,
+    41.2% 39.9%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon225{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f5dcbe;
+    clip-path: polygon(
+    43.8% 36.4%,
+    41.2% 39.9%,
+    48.7% 38.3%
+    )
+}
+
+.zpolygon226{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dba866;
+    clip-path: polygon(
+    40.8% 39.3%,
+    41.2% 39.9%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon227{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #dba866;
+    clip-path: polygon(
+    40.1% 43.7%,
+    41.2% 39.9%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon228{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ebceaa;
+    clip-path: polygon(
+    40.1% 43.7%,
+    41.2% 39.9%,
+    48.7% 38.3%
+    )
+}
+
+.zpolygon229{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e4c49e;
+    clip-path: polygon(
+    40.1% 43.7%,
+    44.6% 46.6%,
+    48.7% 38.3%
+    )
+}
+
+.zpolygon230{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #d8b68d;
+    clip-path: polygon(
+    40.1% 43.7%,
+    44.6% 46.6%,
+    38.5% 45.6%
+    )
+}
+
+.zpolygon231{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #a7a4a0;
+    clip-path: polygon(
+    37.9% 41.6%,
+    36.85% 41.35%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon232{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #b6b3af;
+    clip-path: polygon(
+    37.9% 41.6%,
+    40.1% 43.7%,
+    38.9% 39.6%
+    )
+}
+
+.zpolygon233{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #bdb9b5;
+    clip-path: polygon(
+    37.9% 41.6%,
+    40.1% 43.7%,
+    37.2% 44.1%
+    )
+}
+
+.zpolygon234{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #adaaa6;
+    clip-path: polygon(
+    37% 47.2%,
+    40.1% 43.7%,
+    37.2% 44.1%
+    )
+}
+
+.zpolygon235{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #a1a09f;
+    clip-path: polygon(
+    37% 47.2%,
+    35.6% 44.6%,
+    37.2% 44.1%
+    )
+}
+
+.zpolygon236{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #505050;
+    clip-path: polygon(
+    31.9% 43%,
+    35.6% 44.6%,
+    37.2% 44.1%
+    )
+}
+
+.zpolygon237{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e4c49e;
+    clip-path: polygon(
+    31.9% 43%,
+    35.6% 44.6%,
+    28.3% 44.6%
+    )
+}
+
+.zpolygon238{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #505050;
+    clip-path: polygon(
+    31.9% 42.98%,
+    34.5% 44.1%,
+    32.5% 43.9%
+    )
+}
+
+.zpolygon239{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #d4b690;
+    clip-path: polygon(
+    31.9% 43%,
+    25.4% 41.6%,
+    28.3% 44.6%
+    )
+}
+
+.zpolygon240{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #f5dab6;
+    clip-path: polygon(
+    23.9% 42.8%,
+    25.4% 41.6%,
+    28.3% 44.6%
+    )
+}
+
+.zpolygon241{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e2c49d;
+    clip-path: polygon(
+    23.9% 42.8%,
+    26.1% 47.3%,
+    28.3% 44.6%
+    )
+}
+
+.zpolygon242{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #e4e4e4;
+    clip-path: polygon(
+    23.9% 42.8%,
+    26.1% 47.3%,
+    24.8% 47.8%
+    )
+}
+
+.zpolygon243{
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #424242;
+    clip-path: polygon(
+    23.9% 42.8%,
+    20.1% 49.7%,
+    24.8% 47.8%
+    )
+} */
 
 .polygonEnd{
     color: white;
