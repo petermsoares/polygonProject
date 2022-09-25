@@ -1,3 +1,32 @@
+/*
+Added different height and width values and
+a media query I'm considering for all of the
+sections. 
+
+The idea is that above 900 px we want to reference
+the height of the screen because we're most likely
+going to be on a desktop or a laptop display.
+
+However, under 900 px we're probably on a tablet
+or a phone, so we want the width and height values
+to be set to the viewport width so the entire
+piece fits well on the screen.
+*/
+.container__all{
+    width: 90vh;
+    height: 90vh;
+}
+
+@media all and (max-width: 900px){
+
+
+.container__all{
+    width: 100vw;
+    height: 100vw;
+}
+}
+
+
 
 .zpolygon1{
     position: absolute;
@@ -4721,3 +4750,243 @@
     49.6% 28.67%
     )
 }
+
+
+
+
+/* Lightning Strike Divs 
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡴⠂
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⡿⠋⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⠟⠋⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣤⡤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣿⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⣴⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⣾⡿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠠⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+*/
+
+.zenitsu__character{
+    opacity: 0;
+    animation: zenitsu__FadeIn;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1000ms;
+}
+
+.lightning__left{
+    animation: lightning_Left_Test;
+    animation-duration: 3000ms;
+    animation-fill-mode:forwards;
+
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+        25.4% 11.8%,
+        43.2% 10.7%,
+        31.9% 19.6%,
+        28.6% 23.4%,
+        35.7% 35.9%,
+        37.2% 47.2%,
+        44.9% 63.6%,
+        31.1% 69.6%,
+        33.0% 74.1%,
+        31.1% 78.1%,
+        36.3% 84.0%,
+        36.2% 89.0%,
+        35.2% 84.4%,
+        30.1% 80.1%,
+        26.8% 86.3%,
+        27.7% 90.3%,
+        26.1% 86.3%,
+        31.5% 74.2%,
+        28.7% 68.7%,
+        40.4% 62.7%,
+        34.7% 49.4%,
+        13.9% 68.8%,
+        21.0% 75.6%,
+        11.1% 69.2%,
+        13.6% 64.0%,
+        27.9% 46.7%,
+        29.0% 35.8%,
+        22.5% 29.4%,
+        19.0% 35.8%,
+        13.1% 37.5%,
+        11.2% 47.3%,
+        15.4% 51.7%,
+        9.50% 47.2%,
+        10.8% 36.1%,
+        16.9% 33.5%,
+        24.0% 17.4%,
+        18.4% 16.3%,
+        11.0% 16.5%,
+        5.50% 22.8%,
+        6.40% 27.4%,
+        5.60% 29.7%,
+        10.1% 32.3%,
+        3.90% 30.4%,
+        4.70% 26.9%,
+        2.90% 22.0%,
+        8.60% 14.4%,
+        15.8% 11.9%,
+        25.5% 11.8%        
+    );
+}
+
+.lightning__right{
+    animation: lightning_Right_Test;
+    animation-duration: 2375ms;
+    animation-fill-mode:forwards;
+    animation-delay: 625ms;
+
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    clip-path: polygon(
+        34.3% 10.4%,
+        53.9% 19.3%,
+        60.3% 44.8%,
+        92.5% 55.3%,
+        93.2% 61.9%,
+        91.1% 56.7%,
+        77.8% 53.4%,
+        89.4% 70.6%,
+        98.0% 76.4%,
+        93.3% 88.9%,
+        95.9% 77.6%,
+        87.4% 73.7%,
+        72.2% 52.5%,
+        62.4% 49.5%,
+        53.9% 63.8%,
+        66.5% 70.1%,
+        75.6% 68.1%,
+        66.0% 71.9%,
+        48.8% 64.9%,
+        57.4% 48.4%,
+        53.0% 37.4%,
+        44.9% 46.5%,
+        36.9% 47.4%,
+        33.3% 41.6%,
+        37.6% 46.2%,
+        44.2% 44.1%,
+        50.4% 35.0%,
+        47.4% 24.4%,
+        28.8% 21.6%
+    );
+}
+
+@keyframes lightning_Left_Test{
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 1;
+    }
+    6%{
+        opacity: 0;
+    }
+    21%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes lightning_Right_Test{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes zenitsu__FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 
+Commented out trim-paths style animation
+using the polygon tool.*/
+
+/* 
+.lightning__outline__1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    animation: lightning1;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    
+    animation-iteration-count: infinite;
+}
+
+@keyframes lightning1{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        45.5% 74.9%,
+        45.5% 74.9%,
+        45.5% 75.1%,
+        45.5% 75.1%
+    );
+    
+    }
+
+    70%{
+        opacity: 1;
+        clip-path: polygon(
+        55% 74.9%,
+        56.0% 74.9%,
+        56% 75.1%,
+        55% 75.1%);
+    }
+
+    100%{
+        opacity: 0;
+        clip-path: polygon(
+        58.0% 74.9%,
+        58.0% 74.9%,
+        58% 75.1%,
+        58% 75.1%
+        );
+    }
+
+    } */
