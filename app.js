@@ -2,15 +2,15 @@
 // const viPolygonSection = document.querySelectorAll(".polygon222")
 // const viDescription = document.querySelectorAll(".viDescription")
 
-const zenitsu_Animations = ["line-animation-1","line-animation-2"]
-const zenitsu_Shapes = document.querySelectorAll(".shape")
-const zArray = Array.from(zenitsu_Shapes)
-console.log(zArray)
+// const zenitsu_Animations = ["line-animation-1","line-animation-2"]
+// const zenitsu_Shapes = document.querySelectorAll(".shape")
+// const zArray = Array.from(zenitsu_Shapes)
+// console.log(zArray)
 
-for (let i = 0; i < zArray.length; i++){
-    console.log(zenitsu_Animations[i])
-    zArray[i].classList.add(zenitsu_Animations[i])
-}
+// for (let i = 0; i < zArray.length; i++){
+//     console.log(zenitsu_Animations[i])
+//     zArray[i].classList.add(zenitsu_Animations[i])
+// }
 
 
 
