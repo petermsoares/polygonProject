@@ -4989,6 +4989,9 @@ piece fits well on the screen.
     }
 } */
 
+:root{
+    --line-time: 1800ms;
+}
 
 .line-1{
     position: absolute;
@@ -5006,7 +5009,7 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(81, 194, 184);
+    background-color: rgb(255, 255, 255);
     clip-path: polygon(
         54.6% 77.8%,
         48.1% 75.4%,
@@ -5052,7 +5055,7 @@ piece fits well on the screen.
     opacity: 0;
 
     animation: zline1;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -5524,7 +5527,7 @@ piece fits well on the screen.
     opacity: 0;
 
     animation: zline2;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -5559,33 +5562,33 @@ piece fits well on the screen.
         15.5% 11.5%,
         15.5% 11.5%,
         /* Bottom Polygons */
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
 
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
 
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
         
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
         
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
-        15.5% 12.0%
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
+        15.5% 12.0%,
         15.5% 12.0%
     );
 
@@ -7074,7 +7077,7 @@ piece fits well on the screen.
     opacity: 1;
 
     animation: zline3;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -9057,7 +9060,7 @@ piece fits well on the screen.
     opacity: 1;
 
     animation: zline4;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -9173,7 +9176,7 @@ piece fits well on the screen.
     opacity: 1;
 
     animation: zline5;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -9193,13 +9196,13 @@ piece fits well on the screen.
         20.8% 33.2%,
         20.8% 33.2%,
 
-        20.4% 33.6%
-        20.4% 33.6%
-        20.4% 33.6%
-        20.4% 33.6%
-        20.4% 33.6%
-        20.4% 33.6%
-        20.4% 33.6%
+        20.4% 33.6%,
+        20.4% 33.6%,
+        20.4% 33.6%,
+        20.4% 33.6%,
+        20.4% 33.6%,
+        20.4% 33.6%,
+        20.4% 33.6%,
         20.4% 33.6%
     );}
     14%{  
@@ -9353,7 +9356,7 @@ piece fits well on the screen.
     opacity: 1;
 
     animation: zline6;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -9410,19 +9413,19 @@ clip-path: polygon(
         53.2% 43.2%,
         53.2% 43.2%,
 
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
-        53.1% 43.5%
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
+        53.1% 43.5%,
         53.1% 43.5%
     );}
     7%{
@@ -9898,7 +9901,7 @@ clip-path: polygon(
     opacity: 1;
 
     animation: zline7;
-    animation-duration: 1000ms;
+    animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
@@ -9921,16 +9924,16 @@ clip-path: polygon(
         52.4% 20.5%,
         52.4% 20.5%,
 
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
-        52.1% 20.2%
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
+        52.1% 20.2%,
         52.1% 20.2%
     );}
     10%{clip-path: polygon(
