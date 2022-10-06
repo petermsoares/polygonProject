@@ -1,20 +1,5 @@
-/*
-Added different height and width values and
-a media query I'm considering for all of the
-sections. 
-
-The idea is that above 900 px we want to reference
-the height of the screen because we're most likely
-going to be on a desktop or a laptop display.
-
-However, under 900 px we're probably on a tablet
-or a phone, so we want the width and height values
-to be set to the viewport width so the entire
-piece fits well on the screen.
-*/
-.container__all{
-    width: 90vh;
-    height: 90vh;
+.zenitsu__wrapper{
+    height: 100vh;
 }
 
 @media all and (max-width: 900px){
@@ -30,7 +15,7 @@ piece fits well on the screen.
 
 .zpolygon1{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FAE57F;
@@ -43,7 +28,7 @@ piece fits well on the screen.
 
 .zpolygon2{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2d072;
@@ -56,7 +41,7 @@ piece fits well on the screen.
 
 .zpolygon3{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f7e27e;
@@ -69,7 +54,7 @@ piece fits well on the screen.
 
 .zpolygon4{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eeda78;
@@ -82,7 +67,7 @@ piece fits well on the screen.
 
 .zpolygon5{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fcea91;
@@ -95,7 +80,7 @@ piece fits well on the screen.
 
 .zpolygon6{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faedad;
@@ -108,7 +93,7 @@ piece fits well on the screen.
 
 .zpolygon7{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4d279;
@@ -121,7 +106,7 @@ piece fits well on the screen.
 
 .zpolygon8{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3e59d;
@@ -134,7 +119,7 @@ piece fits well on the screen.
 
 .zpolygon9{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eedc80;
@@ -147,7 +132,7 @@ piece fits well on the screen.
 
 .zpolygon10{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7d36f;
@@ -160,7 +145,7 @@ piece fits well on the screen.
 
 .zpolygon11{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7d475;
@@ -173,7 +158,7 @@ piece fits well on the screen.
 
 .zpolygon12{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6d378;
@@ -186,7 +171,7 @@ piece fits well on the screen.
 
 .zpolygon13{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e0cc69;
@@ -199,7 +184,7 @@ piece fits well on the screen.
 
 .zpolygon14{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebda85;
@@ -212,7 +197,7 @@ piece fits well on the screen.
 
 .zpolygon15{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecdd90;
@@ -225,7 +210,7 @@ piece fits well on the screen.
 
 .zpolygon16{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7d67d;
@@ -238,7 +223,7 @@ piece fits well on the screen.
 
 .zpolygon17{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FAE57F;
@@ -251,7 +236,7 @@ piece fits well on the screen.
 
 .zpolygon18{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfcd77;
@@ -264,7 +249,7 @@ piece fits well on the screen.
 
 .zpolygon19{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eedb7f;
@@ -277,7 +262,7 @@ piece fits well on the screen.
 
 .zpolygon20{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FAE57F;
@@ -290,7 +275,7 @@ piece fits well on the screen.
 
 .zpolygon21{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2d283;
@@ -303,7 +288,7 @@ piece fits well on the screen.
 
 .zpolygon22{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1e087;
@@ -317,7 +302,7 @@ piece fits well on the screen.
 
 .zpolygon23{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2d17a;
@@ -330,7 +315,7 @@ piece fits well on the screen.
 
 .zpolygon24{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -343,7 +328,7 @@ piece fits well on the screen.
 
 .zpolygon25{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -356,7 +341,7 @@ piece fits well on the screen.
 
 .zpolygon26{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -369,7 +354,7 @@ piece fits well on the screen.
 
 .zpolygon27{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -382,7 +367,7 @@ piece fits well on the screen.
 
 .zpolygon28{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1e087;
@@ -395,7 +380,7 @@ piece fits well on the screen.
 
 .zpolygon29{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfce7a;
@@ -408,7 +393,7 @@ piece fits well on the screen.
 
 .zpolygon30{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9d77f;
@@ -421,7 +406,7 @@ piece fits well on the screen.
 
 .zpolygon31{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -434,7 +419,7 @@ piece fits well on the screen.
 
 .zpolygon32{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -447,7 +432,7 @@ piece fits well on the screen.
 
 .zpolygon33{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eede8c;
@@ -460,7 +445,7 @@ piece fits well on the screen.
 
 .zpolygon34{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7d783;
@@ -473,7 +458,7 @@ piece fits well on the screen.
 
 .zpolygon35{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0e094;
@@ -486,7 +471,7 @@ piece fits well on the screen.
 
 .zpolygon36{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FAE57F;
@@ -499,7 +484,7 @@ piece fits well on the screen.
 
 .zpolygon37{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfd089;
@@ -512,7 +497,7 @@ piece fits well on the screen.
 
 .zpolygon38{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9db97;
@@ -525,7 +510,7 @@ piece fits well on the screen.
 
 .zpolygon39{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ddcf8a;
@@ -538,7 +523,7 @@ piece fits well on the screen.
 
 .zpolygon40{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -551,7 +536,7 @@ piece fits well on the screen.
 
 .zpolygon41{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -564,7 +549,7 @@ piece fits well on the screen.
 
 .zpolygon42{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ddcf8a;
@@ -577,7 +562,7 @@ piece fits well on the screen.
 
 .zpolygon43{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5e69d;
@@ -590,7 +575,7 @@ piece fits well on the screen.
 
 .zpolygon44{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebda89;
@@ -603,7 +588,7 @@ piece fits well on the screen.
 
 .zpolygon45{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f7e9a6;
@@ -616,7 +601,7 @@ piece fits well on the screen.
 
 .zpolygon46{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eee09b;
@@ -629,7 +614,7 @@ piece fits well on the screen.
 
 .zpolygon47{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fff2b0;
@@ -642,7 +627,7 @@ piece fits well on the screen.
 
 .zpolygon48{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fff3b8;
@@ -655,7 +640,7 @@ piece fits well on the screen.
 
 .zpolygon49{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fff3b8;
@@ -668,7 +653,7 @@ piece fits well on the screen.
 
 .zpolygon50{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eee1a1;
@@ -681,7 +666,7 @@ piece fits well on the screen.
 
 .zpolygon51{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6d78c;
@@ -694,7 +679,7 @@ piece fits well on the screen.
 
 .zpolygon52{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1e295;
@@ -707,7 +692,7 @@ piece fits well on the screen.
 
 .zpolygon53{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -720,7 +705,7 @@ piece fits well on the screen.
 
 .zpolygon54{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -733,7 +718,7 @@ piece fits well on the screen.
 
 .zpolygon55{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #cc714d;
@@ -746,7 +731,7 @@ piece fits well on the screen.
 
 .zpolygon56{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -759,7 +744,7 @@ piece fits well on the screen.
 
 .zpolygon57{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ce7450;
@@ -772,7 +757,7 @@ piece fits well on the screen.
 
 .zpolygon58{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #c06744;
@@ -785,7 +770,7 @@ piece fits well on the screen.
 
 .zpolygon59{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebda89;
@@ -798,7 +783,7 @@ piece fits well on the screen.
 
 .zpolygon60{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faea99;
@@ -811,7 +796,7 @@ piece fits well on the screen.
 
 .zpolygon61{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eedd86;
@@ -824,7 +809,7 @@ piece fits well on the screen.
 
 .zpolygon62{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #DE845F;
@@ -837,7 +822,7 @@ piece fits well on the screen.
 
 .zpolygon63{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #cc714d;
@@ -850,7 +835,7 @@ piece fits well on the screen.
 
 .zpolygon64{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e0a587;
@@ -863,7 +848,7 @@ piece fits well on the screen.
 
 .zpolygon65{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dd9b7a;
@@ -876,7 +861,7 @@ piece fits well on the screen.
 
 .zpolygon66{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d39880;
@@ -889,7 +874,7 @@ piece fits well on the screen.
 
 .zpolygon67{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d6734c;
@@ -902,7 +887,7 @@ piece fits well on the screen.
 
 .zpolygon68{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #db7c57;
@@ -915,7 +900,7 @@ piece fits well on the screen.
 
 .zpolygon69{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faea99;
@@ -928,7 +913,7 @@ piece fits well on the screen.
 
 .zpolygon70{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #caa180;
@@ -941,7 +926,7 @@ piece fits well on the screen.
 
 .zpolygon71{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e5bd97;
@@ -954,7 +939,7 @@ piece fits well on the screen.
 
 .zpolygon72{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ddb486;
@@ -967,7 +952,7 @@ piece fits well on the screen.
 
 .zpolygon73{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c59c;
@@ -980,7 +965,7 @@ piece fits well on the screen.
 
 .zpolygon74{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #daab86;
@@ -993,7 +978,7 @@ piece fits well on the screen.
 
 .zpolygon75{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #c49670;
@@ -1006,7 +991,7 @@ piece fits well on the screen.
 
 .zpolygon76{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #c29867;
@@ -1019,7 +1004,7 @@ piece fits well on the screen.
 
 .zpolygon77{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -1032,7 +1017,7 @@ piece fits well on the screen.
 
 .zpolygon78{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -1045,7 +1030,7 @@ piece fits well on the screen.
 
 .zpolygon79{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4bba0;
@@ -1058,7 +1043,7 @@ piece fits well on the screen.
 
 .zpolygon80{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ddba9a;
@@ -1072,7 +1057,7 @@ piece fits well on the screen.
 
 .zpolygon81{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecccae;
@@ -1085,7 +1070,7 @@ piece fits well on the screen.
 
 .zpolygon82{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6c2a1;
@@ -1098,7 +1083,7 @@ piece fits well on the screen.
 
 .zpolygon83{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -1112,7 +1097,7 @@ piece fits well on the screen.
 
 .zpolygon84{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -1125,7 +1110,7 @@ piece fits well on the screen.
 
 .zpolygon85{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0c8a3;
@@ -1138,7 +1123,7 @@ piece fits well on the screen.
 
 .zpolygon86{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8d1b0;
@@ -1151,7 +1136,7 @@ piece fits well on the screen.
 
 .zpolygon87{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dbb697;
@@ -1164,7 +1149,7 @@ piece fits well on the screen.
 
 .zpolygon88{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5d3b7;
@@ -1177,7 +1162,7 @@ piece fits well on the screen.
 
 .zpolygon89{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8d5b8;
@@ -1190,7 +1175,7 @@ piece fits well on the screen.
 
 .zpolygon90{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecc8a0;
@@ -1203,7 +1188,7 @@ piece fits well on the screen.
 
 .zpolygon91{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1cdac;
@@ -1216,7 +1201,7 @@ piece fits well on the screen.
 
 .zpolygon92{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3ccb2;
@@ -1230,7 +1215,7 @@ piece fits well on the screen.
 
 .zpolygon93{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d1ad;
@@ -1244,7 +1229,7 @@ piece fits well on the screen.
 
 .zpolygon94{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fce3c3;
@@ -1257,7 +1242,7 @@ piece fits well on the screen.
 
 .zpolygon95{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eecdaf;
@@ -1270,7 +1255,7 @@ piece fits well on the screen.
 
 .zpolygon96{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebbfa2;
@@ -1283,7 +1268,7 @@ piece fits well on the screen.
 
 .zpolygon97{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eec8af;
@@ -1296,7 +1281,7 @@ piece fits well on the screen.
 
 .zpolygon98{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6c1a2;
@@ -1309,7 +1294,7 @@ piece fits well on the screen.
 
 .zpolygon99{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dab592;
@@ -1322,7 +1307,7 @@ piece fits well on the screen.
 
 .zpolygon100{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e5bfa0;
@@ -1335,7 +1320,7 @@ piece fits well on the screen.
 
 .zpolygon101{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfbc93;
@@ -1348,7 +1333,7 @@ piece fits well on the screen.
 
 .zpolygon102{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #000000;
@@ -1361,7 +1346,7 @@ piece fits well on the screen.
 
 .zpolygon103{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1374,7 +1359,7 @@ piece fits well on the screen.
 
 .zpolygon104{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #F9D667;
@@ -1387,7 +1372,7 @@ piece fits well on the screen.
 
 .zpolygon105{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebca60;
@@ -1400,7 +1385,7 @@ piece fits well on the screen.
 
 .zpolygon106{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #F9D667;
@@ -1413,7 +1398,7 @@ piece fits well on the screen.
 
 .zpolygon107{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fada73;
@@ -1426,7 +1411,7 @@ piece fits well on the screen.
 
 .zpolygon108{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fad96f;
@@ -1439,7 +1424,7 @@ piece fits well on the screen.
 
 .zpolygon109{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1452,7 +1437,7 @@ piece fits well on the screen.
 
 .zpolygon110{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d067;
@@ -1465,7 +1450,7 @@ piece fits well on the screen.
 
 .zpolygon111{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5d671;
@@ -1478,7 +1463,7 @@ piece fits well on the screen.
 
 .zpolygon112{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffbc51;
@@ -1491,7 +1476,7 @@ piece fits well on the screen.
 
 .zpolygon113{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1504,7 +1489,7 @@ piece fits well on the screen.
 
 .zpolygon114{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc569;
@@ -1517,7 +1502,7 @@ piece fits well on the screen.
 
 .zpolygon115{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc261;
@@ -1530,7 +1515,7 @@ piece fits well on the screen.
 
 .zpolygon116{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fab64a;
@@ -1543,7 +1528,7 @@ piece fits well on the screen.
 
 .zpolygon117{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc15e;
@@ -1556,7 +1541,7 @@ piece fits well on the screen.
 
 .zpolygon118{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffbc51;
@@ -1569,7 +1554,7 @@ piece fits well on the screen.
 
 .zpolygon119{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faa142;
@@ -1582,7 +1567,7 @@ piece fits well on the screen.
 
 .zpolygon120{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1595,7 +1580,7 @@ piece fits well on the screen.
 
 .zpolygon121{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fa9b35;
@@ -1608,7 +1593,7 @@ piece fits well on the screen.
 
 .zpolygon122{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #F79830;
@@ -1621,7 +1606,7 @@ piece fits well on the screen.
 
 .zpolygon123{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f08f27;
@@ -1634,7 +1619,7 @@ piece fits well on the screen.
 
 .zpolygon124{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4841d;
@@ -1647,7 +1632,7 @@ piece fits well on the screen.
 
 .zpolygon125{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1660,7 +1645,7 @@ piece fits well on the screen.
 
 .zpolygon126{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4841d;
@@ -1673,7 +1658,7 @@ piece fits well on the screen.
 
 .zpolygon127{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1686,7 +1671,7 @@ piece fits well on the screen.
 
 .zpolygon128{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ee9333;
@@ -1699,7 +1684,7 @@ piece fits well on the screen.
 
 .zpolygon129{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faa142;
@@ -1712,7 +1697,7 @@ piece fits well on the screen.
 
 .zpolygon130{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8a143;
@@ -1725,7 +1710,7 @@ piece fits well on the screen.
 
 .zpolygon131{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1738,7 +1723,7 @@ piece fits well on the screen.
 
 .zpolygon132{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1a554;
@@ -1751,7 +1736,7 @@ piece fits well on the screen.
 
 .zpolygon133{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1ab5f;
@@ -1764,7 +1749,7 @@ piece fits well on the screen.
 
 .zpolygon134{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1777,7 +1762,7 @@ piece fits well on the screen.
 
 .zpolygon135{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc15e;
@@ -1790,7 +1775,7 @@ piece fits well on the screen.
 
 .zpolygon136{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fcc265;
@@ -1803,7 +1788,7 @@ piece fits well on the screen.
 
 .zpolygon137{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc971;
@@ -1816,7 +1801,7 @@ piece fits well on the screen.
 
 .zpolygon138{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffcf81;
@@ -1829,7 +1814,7 @@ piece fits well on the screen.
 
 .zpolygon139{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc973;
@@ -1842,7 +1827,7 @@ piece fits well on the screen.
 
 .zpolygon140{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f7c87c;
@@ -1855,7 +1840,7 @@ piece fits well on the screen.
 
 .zpolygon141{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5bc61;
@@ -1868,7 +1853,7 @@ piece fits well on the screen.
 
 .zpolygon142{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fdc66d;
@@ -1881,7 +1866,7 @@ piece fits well on the screen.
 
 .zpolygon143{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #303030;
@@ -1894,7 +1879,7 @@ piece fits well on the screen.
 
 .zpolygon144{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3b3b3b;
@@ -1907,7 +1892,7 @@ piece fits well on the screen.
 
 .zpolygon145{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #505050;
@@ -1920,7 +1905,7 @@ piece fits well on the screen.
 
 .zpolygon146{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -1933,7 +1918,7 @@ piece fits well on the screen.
 
 .zpolygon147{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d1d1d1;
@@ -1946,7 +1931,7 @@ piece fits well on the screen.
 
 .zpolygon148{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6b5a2;
@@ -1959,7 +1944,7 @@ piece fits well on the screen.
 
 .zpolygon149{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eec2b0;
@@ -1972,7 +1957,7 @@ piece fits well on the screen.
 
 .zpolygon150{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faccba;
@@ -1985,7 +1970,7 @@ piece fits well on the screen.
 
 .zpolygon151{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfa48d;
@@ -1998,7 +1983,7 @@ piece fits well on the screen.
 
 .zpolygon152{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecb8a3;
@@ -2011,7 +1996,7 @@ piece fits well on the screen.
 
 .zpolygon153{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3dc76;
@@ -2024,7 +2009,7 @@ piece fits well on the screen.
 
 .zpolygon154{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffec96;
@@ -2037,7 +2022,7 @@ piece fits well on the screen.
 
 .zpolygon155{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8e48b;
@@ -2050,7 +2035,7 @@ piece fits well on the screen.
 
 .zpolygon156{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffd48e;
@@ -2062,7 +2047,7 @@ piece fits well on the screen.
 }
 .zpolygon157{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c781;
@@ -2074,7 +2059,7 @@ piece fits well on the screen.
 }
 .zpolygon158{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -2087,7 +2072,7 @@ piece fits well on the screen.
 
 .zpolygon159{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9d479;
@@ -2100,7 +2085,7 @@ piece fits well on the screen.
 
 .zpolygon160{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffeea4;
@@ -2113,7 +2098,7 @@ piece fits well on the screen.
 
 .zpolygon161{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fae791;
@@ -2126,7 +2111,7 @@ piece fits well on the screen.
 
 .zpolygon162{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2be81;
@@ -2139,7 +2124,7 @@ piece fits well on the screen.
 
 .zpolygon163{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #535353;
@@ -2152,7 +2137,7 @@ piece fits well on the screen.
 
 .zpolygon164{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3b3b3b;
@@ -2165,7 +2150,7 @@ piece fits well on the screen.
 
 .zpolygon165{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -2178,7 +2163,7 @@ piece fits well on the screen.
 
 .zpolygon166{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dab473;
@@ -2191,7 +2176,7 @@ piece fits well on the screen.
 
 .zpolygon167{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9c587;
@@ -2204,7 +2189,7 @@ piece fits well on the screen.
 
 .zpolygon168{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eece97;
@@ -2217,7 +2202,7 @@ piece fits well on the screen.
 
 .zpolygon169{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffc508;
@@ -2230,7 +2215,7 @@ piece fits well on the screen.
 
 .zpolygon170{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ececec;
@@ -2244,7 +2229,7 @@ piece fits well on the screen.
 
 .zpolygon171{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2257,7 +2242,7 @@ piece fits well on the screen.
 
 .zpolygon172{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2270,7 +2255,7 @@ piece fits well on the screen.
 
 .zpolygon173{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2283,7 +2268,7 @@ piece fits well on the screen.
 
 .zpolygon174{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2296,7 +2281,7 @@ piece fits well on the screen.
 
 .zpolygon175{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2309,7 +2294,7 @@ piece fits well on the screen.
 
 .zpolygon176{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2322,7 +2307,7 @@ piece fits well on the screen.
 
 .zpolygon177{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2335,7 +2320,7 @@ piece fits well on the screen.
 
 .zpolygon178{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0d352;
@@ -2348,7 +2333,7 @@ piece fits well on the screen.
 
 .zpolygon179{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FCDAC4;
@@ -2361,7 +2346,7 @@ piece fits well on the screen.
 
 .zpolygon180{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7c2a9;
@@ -2374,7 +2359,7 @@ piece fits well on the screen.
 
 .zpolygon181{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e0b192;
@@ -2387,7 +2372,7 @@ piece fits well on the screen.
 
 .zpolygon182{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #464646;
@@ -2400,7 +2385,7 @@ piece fits well on the screen.
 
 .zpolygon183{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #FCDAC4;
@@ -2413,7 +2398,7 @@ piece fits well on the screen.
 
 .zpolygon184{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7c2a9;
@@ -2426,7 +2411,7 @@ piece fits well on the screen.
 
 .zpolygon185{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffe5d4;
@@ -2439,7 +2424,7 @@ piece fits well on the screen.
 
 .zpolygon186{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1d0ba;
@@ -2452,7 +2437,7 @@ piece fits well on the screen.
 
 .zpolygon187{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebc3a9;
@@ -2465,7 +2450,7 @@ piece fits well on the screen.
 
 .zpolygon188{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1d3bf;
@@ -2478,7 +2463,7 @@ piece fits well on the screen.
 
 .zpolygon189{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4e4e4e;
@@ -2491,7 +2476,7 @@ piece fits well on the screen.
 
 .zpolygon190{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dab473;
@@ -2504,7 +2489,7 @@ piece fits well on the screen.
 
 .zpolygon191{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dab473;
@@ -2517,7 +2502,7 @@ piece fits well on the screen.
 
 .zpolygon192{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4e4e4e;
@@ -2530,7 +2515,7 @@ piece fits well on the screen.
 
 .zpolygon193{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c2a3;
@@ -2543,7 +2528,7 @@ piece fits well on the screen.
 
 .zpolygon194{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c4a6;
@@ -2556,7 +2541,7 @@ piece fits well on the screen.
 
 .zpolygon195{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9b795;
@@ -2569,7 +2554,7 @@ piece fits well on the screen.
 
 .zpolygon196{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c67a;
@@ -2582,7 +2567,7 @@ piece fits well on the screen.
 
 .zpolygon197{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #474747;
@@ -2595,7 +2580,7 @@ piece fits well on the screen.
 
 .zpolygon198{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c67a;
@@ -2608,7 +2593,7 @@ piece fits well on the screen.
 
 .zpolygon199{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1c67a;
@@ -2621,7 +2606,7 @@ piece fits well on the screen.
 
 .zpolygon200{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e0b261;
@@ -2634,7 +2619,7 @@ piece fits well on the screen.
 
 .zpolygon201{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2b76c;
@@ -2647,7 +2632,7 @@ piece fits well on the screen.
 
 .zpolygon202{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5e28e;
@@ -2660,7 +2645,7 @@ piece fits well on the screen.
 
 .zpolygon203{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffeb92;
@@ -2673,7 +2658,7 @@ piece fits well on the screen.
 
 .zpolygon204{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eed97d;
@@ -2686,7 +2671,7 @@ piece fits well on the screen.
 
 .zpolygon205{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f7e38a;
@@ -2699,7 +2684,7 @@ piece fits well on the screen.
 
 .zpolygon206{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fae899;
@@ -2712,7 +2697,7 @@ piece fits well on the screen.
 
 .zpolygon207{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -2725,7 +2710,7 @@ piece fits well on the screen.
 
 .zpolygon208{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fae899;
@@ -2738,7 +2723,7 @@ piece fits well on the screen.
 
 .zpolygon209{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f7e7a1;
@@ -2751,7 +2736,7 @@ piece fits well on the screen.
 
 .zpolygon210{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fff1b1;
@@ -2764,7 +2749,7 @@ piece fits well on the screen.
 
 .zpolygon211{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eeda82;
@@ -2777,7 +2762,7 @@ piece fits well on the screen.
 
 .zpolygon212{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5e393;
@@ -2790,7 +2775,7 @@ piece fits well on the screen.
 
 .zpolygon213{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1dd7f;
@@ -2803,7 +2788,7 @@ piece fits well on the screen.
 
 .zpolygon214{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8e696;
@@ -2816,7 +2801,7 @@ piece fits well on the screen.
 
 .zpolygon215{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -2829,7 +2814,7 @@ piece fits well on the screen.
 
 .zpolygon216{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebd885;
@@ -2842,7 +2827,7 @@ piece fits well on the screen.
 
 .zpolygon217{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffeea3;
@@ -2855,7 +2840,7 @@ piece fits well on the screen.
 
 .zpolygon218{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebd988;
@@ -2868,7 +2853,7 @@ piece fits well on the screen.
 
 .zpolygon219{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eebb78;
@@ -2881,7 +2866,7 @@ piece fits well on the screen.
 
 .zpolygon220{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dba866;
@@ -2894,7 +2879,7 @@ piece fits well on the screen.
 
 .zpolygon221{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4b373;
@@ -2907,7 +2892,7 @@ piece fits well on the screen.
 
 .zpolygon222{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d8ab6f;
@@ -2920,7 +2905,7 @@ piece fits well on the screen.
 
 .zpolygon223{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecd3b5;
@@ -2933,7 +2918,7 @@ piece fits well on the screen.
 
 .zpolygon224{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2c6a3;
@@ -2946,7 +2931,7 @@ piece fits well on the screen.
 
 .zpolygon225{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5dcbe;
@@ -2959,7 +2944,7 @@ piece fits well on the screen.
 
 .zpolygon226{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dba866;
@@ -2972,7 +2957,7 @@ piece fits well on the screen.
 
 .zpolygon227{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ececec;
@@ -2985,7 +2970,7 @@ piece fits well on the screen.
 
 .zpolygon228{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebceaa;
@@ -2998,7 +2983,7 @@ piece fits well on the screen.
 
 .zpolygon229{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4c49e;
@@ -3011,7 +2996,7 @@ piece fits well on the screen.
 
 .zpolygon230{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d8b68d;
@@ -3024,7 +3009,7 @@ piece fits well on the screen.
 
 .zpolygon231{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #a7a4a0;
@@ -3037,7 +3022,7 @@ piece fits well on the screen.
 
 .zpolygon232{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b6b3af;
@@ -3050,7 +3035,7 @@ piece fits well on the screen.
 
 .zpolygon233{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #bdb9b5;
@@ -3063,7 +3048,7 @@ piece fits well on the screen.
 
 .zpolygon234{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #adaaa6;
@@ -3076,7 +3061,7 @@ piece fits well on the screen.
 
 .zpolygon235{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #a1a09f;
@@ -3089,7 +3074,7 @@ piece fits well on the screen.
 
 .zpolygon236{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #505050;
@@ -3102,7 +3087,7 @@ piece fits well on the screen.
 
 .zpolygon237{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4c49e;
@@ -3115,7 +3100,7 @@ piece fits well on the screen.
 
 .zpolygon238{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #505050;
@@ -3128,7 +3113,7 @@ piece fits well on the screen.
 
 .zpolygon239{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d4b690;
@@ -3141,7 +3126,7 @@ piece fits well on the screen.
 
 .zpolygon240{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f5dab6;
@@ -3154,7 +3139,7 @@ piece fits well on the screen.
 
 .zpolygon241{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e2c49d;
@@ -3167,7 +3152,7 @@ piece fits well on the screen.
 
 .zpolygon242{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4e4e4;
@@ -3180,7 +3165,7 @@ piece fits well on the screen.
 
 .zpolygon243{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #424242;
@@ -3193,7 +3178,7 @@ piece fits well on the screen.
 
 .zpolygon244{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4a531;
@@ -3206,7 +3191,7 @@ piece fits well on the screen.
 
 .zpolygon245{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #383838;
@@ -3219,7 +3204,7 @@ piece fits well on the screen.
 
 .zpolygon246{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3a3a3a;
@@ -3232,7 +3217,7 @@ piece fits well on the screen.
 
 .zpolygon247{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b8b8b8;
@@ -3245,7 +3230,7 @@ piece fits well on the screen.
 
 .zpolygon248{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3d3d3d;
@@ -3258,7 +3243,7 @@ piece fits well on the screen.
 
 .zpolygon249{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #2b2b2b;
@@ -3271,7 +3256,7 @@ piece fits well on the screen.
 
 .zpolygon250{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #cecece;
@@ -3284,7 +3269,7 @@ piece fits well on the screen.
 
 .zpolygon251{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #383838;
@@ -3297,7 +3282,7 @@ piece fits well on the screen.
 
 .zpolygon252{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4d4d4d;
@@ -3310,7 +3295,7 @@ piece fits well on the screen.
 
 .zpolygon253{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #363636;
@@ -3323,7 +3308,7 @@ piece fits well on the screen.
 
 .zpolygon254{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4b4b4b;
@@ -3336,7 +3321,7 @@ piece fits well on the screen.
 
 .zpolygon255{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3b3b3b;
@@ -3349,7 +3334,7 @@ piece fits well on the screen.
 
 .zpolygon256{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #2e2e2e;
@@ -3362,7 +3347,7 @@ piece fits well on the screen.
 
 .zpolygon257{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #222222;
@@ -3375,7 +3360,7 @@ piece fits well on the screen.
 
 .zpolygon258{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eedb73;
@@ -3388,7 +3373,7 @@ piece fits well on the screen.
 
 .zpolygon259{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebebeb;
@@ -3401,7 +3386,7 @@ piece fits well on the screen.
 
 .zpolygon260{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebd86f;
@@ -3414,7 +3399,7 @@ piece fits well on the screen.
 
 .zpolygon261{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9d26b;
@@ -3427,7 +3412,7 @@ piece fits well on the screen.
 
 .zpolygon262{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eeeeee;
@@ -3440,7 +3425,7 @@ piece fits well on the screen.
 
 .zpolygon263{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebd975;
@@ -3453,7 +3438,7 @@ piece fits well on the screen.
 
 .zpolygon264{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebcc75;
@@ -3466,7 +3451,7 @@ piece fits well on the screen.
 
 .zpolygon265{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e4b758;
@@ -3479,7 +3464,7 @@ piece fits well on the screen.
 
 .zpolygon266{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecb847;
@@ -3492,7 +3477,7 @@ piece fits well on the screen.
 
 .zpolygon267{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eea039;
@@ -3505,7 +3490,7 @@ piece fits well on the screen.
 
 .zpolygon268{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ec982a;
@@ -3518,7 +3503,7 @@ piece fits well on the screen.
 
 .zpolygon269{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f1a137;
@@ -3531,7 +3516,7 @@ piece fits well on the screen.
 
 .zpolygon270{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3a3a3a;
@@ -3544,7 +3529,7 @@ piece fits well on the screen.
 
 .zpolygon271{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #292929;
@@ -3557,7 +3542,7 @@ piece fits well on the screen.
 
 .zpolygon272{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #c4c2c2;
@@ -3570,7 +3555,7 @@ piece fits well on the screen.
 
 .zpolygon273{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #1f1f1f;
@@ -3583,7 +3568,7 @@ piece fits well on the screen.
 
 .zpolygon274{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #cacaca;
@@ -3596,7 +3581,7 @@ piece fits well on the screen.
 
 .zpolygon275{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #cacaca;
@@ -3609,7 +3594,7 @@ piece fits well on the screen.
 
 .zpolygon276{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #272727;
@@ -3622,7 +3607,7 @@ piece fits well on the screen.
 
 .zpolygon277{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #363636;
@@ -3635,7 +3620,7 @@ piece fits well on the screen.
 
 .zpolygon278{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b3b3b3;
@@ -3648,7 +3633,7 @@ piece fits well on the screen.
 
 .zpolygon279{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ecebeb;
@@ -3661,7 +3646,7 @@ piece fits well on the screen.
 
 .zpolygon280{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #414141;
@@ -3674,7 +3659,7 @@ piece fits well on the screen.
 
 .zpolygon281{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #2b2b2b;
@@ -3687,7 +3672,7 @@ piece fits well on the screen.
 
 .zpolygon282{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #222222;
@@ -3700,7 +3685,7 @@ piece fits well on the screen.
 
 .zpolygon283{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #2e2e2e;
@@ -3713,7 +3698,7 @@ piece fits well on the screen.
 
 .zpolygon284{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4e4e4e;
@@ -3726,7 +3711,7 @@ piece fits well on the screen.
 
 .zpolygon285{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4b4b4b;
@@ -3739,7 +3724,7 @@ piece fits well on the screen.
 
 .zpolygon286{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #636363;
@@ -3752,7 +3737,7 @@ piece fits well on the screen.
 
 .zpolygon287{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #383838;
@@ -3765,7 +3750,7 @@ piece fits well on the screen.
 
 .zpolygon288{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #2c2c2c;
@@ -3778,7 +3763,7 @@ piece fits well on the screen.
 
 .zpolygon289{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ee823b;
@@ -3791,7 +3776,7 @@ piece fits well on the screen.
 
 .zpolygon290{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f58c46;
@@ -3804,7 +3789,7 @@ piece fits well on the screen.
 
 .zpolygon291{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d87a3b;
@@ -3817,7 +3802,7 @@ piece fits well on the screen.
 
 .zpolygon292{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e98b4d;
@@ -3830,7 +3815,7 @@ piece fits well on the screen.
 
 .zpolygon293{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -3843,7 +3828,7 @@ piece fits well on the screen.
 
 .zpolygon294{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #4d4d4d;
@@ -3856,7 +3841,7 @@ piece fits well on the screen.
 
 .zpolygon295{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3b3b3b;
@@ -3869,7 +3854,7 @@ piece fits well on the screen.
 
 .zpolygon296{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #333333;
@@ -3882,7 +3867,7 @@ piece fits well on the screen.
 
 .zpolygon297{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #505050;
@@ -3895,7 +3880,7 @@ piece fits well on the screen.
 
 .zpolygon298{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #303030;
@@ -3908,7 +3893,7 @@ piece fits well on the screen.
 
 .zpolygon299{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffe56f;
@@ -3921,7 +3906,7 @@ piece fits well on the screen.
 
 .zpolygon300{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -3934,7 +3919,7 @@ piece fits well on the screen.
 
 .zpolygon301{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ebcf53;
@@ -3947,7 +3932,7 @@ piece fits well on the screen.
 
 .zpolygon302{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e9b649;
@@ -3960,7 +3945,7 @@ piece fits well on the screen.
 
 .zpolygon303{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eeb63e;
@@ -3973,7 +3958,7 @@ piece fits well on the screen.
 
 .zpolygon304{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3c45f;
@@ -3986,7 +3971,7 @@ piece fits well on the screen.
 
 .zpolygon305{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3e45f;
@@ -3999,7 +3984,7 @@ piece fits well on the screen.
 
 .zpolygon306{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4012,7 +3997,7 @@ piece fits well on the screen.
 
 .zpolygon307{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ee9d34;
@@ -4025,7 +4010,7 @@ piece fits well on the screen.
 
 .zpolygon308{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4038,7 +4023,7 @@ piece fits well on the screen.
 
 .zpolygon309{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d88b26;
@@ -4051,7 +4036,7 @@ piece fits well on the screen.
 
 .zpolygon310{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #414141;
@@ -4064,7 +4049,7 @@ piece fits well on the screen.
 
 .zpolygon311{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b8b8b8;
@@ -4078,7 +4063,7 @@ piece fits well on the screen.
 
 .zpolygon312{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3b3b3b;
@@ -4091,7 +4076,7 @@ piece fits well on the screen.
 
 .zpolygon313{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #a3a3a3;
@@ -4104,7 +4089,7 @@ piece fits well on the screen.
 
 .zpolygon314{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #a1a1a1;
@@ -4117,7 +4102,7 @@ piece fits well on the screen.
 
 .zpolygon315{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #3f3f3f;
@@ -4130,7 +4115,7 @@ piece fits well on the screen.
 
 .zpolygon316{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #303030;
@@ -4143,7 +4128,7 @@ piece fits well on the screen.
 
 .zpolygon317{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #a8a8a8;
@@ -4156,7 +4141,7 @@ piece fits well on the screen.
 
 .zpolygon318{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #474747;
@@ -4169,7 +4154,7 @@ piece fits well on the screen.
 
 .zpolygon319{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #444444;
@@ -4182,7 +4167,7 @@ piece fits well on the screen.
 
 .zpolygon320{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dfdfdf;
@@ -4195,7 +4180,7 @@ piece fits well on the screen.
 
 .zpolygon321{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0f0f0;
@@ -4208,7 +4193,7 @@ piece fits well on the screen.
 
 .zpolygon322{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fffb22;
@@ -4221,7 +4206,7 @@ piece fits well on the screen.
 
 .zpolygon323{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e08032;
@@ -4234,7 +4219,7 @@ piece fits well on the screen.
 
 .zpolygon324{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4247,7 +4232,7 @@ piece fits well on the screen.
 
 .zpolygon325{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ec8f43;
@@ -4260,7 +4245,7 @@ piece fits well on the screen.
 
 .zpolygon326{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faa35c;
@@ -4273,7 +4258,7 @@ piece fits well on the screen.
 
 .zpolygon327{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4286,7 +4271,7 @@ piece fits well on the screen.
 
 .zpolygon328{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffaa65;
@@ -4299,7 +4284,7 @@ piece fits well on the screen.
 
 .zpolygon329{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #faa158;
@@ -4312,7 +4297,7 @@ piece fits well on the screen.
 
 .zpolygon330{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ee944a;
@@ -4325,7 +4310,7 @@ piece fits well on the screen.
 
 .zpolygon331{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ee8d3d;
@@ -4338,7 +4323,7 @@ piece fits well on the screen.
 
 .zpolygon332{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4351,7 +4336,7 @@ piece fits well on the screen.
 
 .zpolygon333{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e67e2a;
@@ -4364,7 +4349,7 @@ piece fits well on the screen.
 
 .zpolygon334{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #d16d1b;
@@ -4377,7 +4362,7 @@ piece fits well on the screen.
 
 .zpolygon335{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4390,7 +4375,7 @@ piece fits well on the screen.
 
 .zpolygon336{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #505050;
@@ -4403,7 +4388,7 @@ piece fits well on the screen.
 
 .zpolygon337{
     position: absolute;
-    z-index: 9;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #414141;
@@ -4417,7 +4402,7 @@ piece fits well on the screen.
 
 .zpolygon338{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dddddd;
@@ -4430,7 +4415,7 @@ piece fits well on the screen.
 
 .zpolygon339{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ececec;
@@ -4443,7 +4428,7 @@ piece fits well on the screen.
 
 .zpolygon340{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b3b3b3;
@@ -4456,7 +4441,7 @@ piece fits well on the screen.
 
 .zpolygon341{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #b1b1b1;
@@ -4470,7 +4455,7 @@ piece fits well on the screen.
 
 .zpolygon342{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #dadada;
@@ -4483,7 +4468,7 @@ piece fits well on the screen.
 
 .zpolygon343{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #eeeeee;
@@ -4496,7 +4481,7 @@ piece fits well on the screen.
 
 .zpolygon344{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #333333;
@@ -4509,7 +4494,7 @@ piece fits well on the screen.
 
 .zpolygon345{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #464646;
@@ -4522,7 +4507,7 @@ piece fits well on the screen.
 
 .zpolygon346{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3af49;
@@ -4535,7 +4520,7 @@ piece fits well on the screen.
 
 .zpolygon347{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4548,7 +4533,7 @@ piece fits well on the screen.
 
 .zpolygon348{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f3af49;
@@ -4561,7 +4546,7 @@ piece fits well on the screen.
 
 .zpolygon349{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #fac068;
@@ -4574,7 +4559,7 @@ piece fits well on the screen.
 
 .zpolygon350{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7ae57;
@@ -4587,7 +4572,7 @@ piece fits well on the screen.
 
 .zpolygon351{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #df8939;
@@ -4600,7 +4585,7 @@ piece fits well on the screen.
 
 .zpolygon352{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e7984e;
@@ -4613,7 +4598,7 @@ piece fits well on the screen.
 
 .zpolygon353{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4626,7 +4611,7 @@ piece fits well on the screen.
 
 .zpolygon354{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f39547;
@@ -4638,7 +4623,7 @@ piece fits well on the screen.
 }
 .zpolygon355{
     position: absolute;
-    z-index: 9;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffa358;
@@ -4651,7 +4636,7 @@ piece fits well on the screen.
 
 .zpolygon356{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffab65;
@@ -4664,7 +4649,7 @@ piece fits well on the screen.
 
 .zpolygon357{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffb579;
@@ -4676,7 +4661,7 @@ piece fits well on the screen.
 }
 .zpolygon358{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f0954b;
@@ -4688,7 +4673,7 @@ piece fits well on the screen.
 }
 .zpolygon359{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #f8a969;
@@ -4701,7 +4686,7 @@ piece fits well on the screen.
 
 .zpolygon360{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffb67b;
@@ -4714,7 +4699,7 @@ piece fits well on the screen.
 
 .zpolygon361{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #e6a26a;
@@ -4727,7 +4712,7 @@ piece fits well on the screen.
 
 .zpolygon362{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4740,7 +4725,7 @@ piece fits well on the screen.
 
 .zpolygon363{
     position: absolute;
-    z-index: 10;
+    z-index: 150;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -4754,352 +4739,53 @@ piece fits well on the screen.
 
 
 
-/* Lightning Strike Divs 
-
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡴⠂
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⡿⠋⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⠟⠋⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣤⡤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣿⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣠⣴⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⣠⣾⡿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠠⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-*/
-/* 
-.zenitsu__character{
-    opacity: 0;
-    animation: zenitsu__FadeIn;
-    animation-duration: 800ms;
-    animation-fill-mode: forwards;
-    animation-delay: 1000ms;
-}
-
-.lightning__left{
-    animation: lightning_Left_Test;
-    animation-duration: 3000ms;
-    animation-fill-mode:forwards;
-
-    opacity: 1;
-    position: absolute;
-    z-index: 10;
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff;
-    clip-path: polygon(
-        25.4% 11.8%,
-        43.2% 10.7%,
-        31.9% 19.6%,
-        28.6% 23.4%,
-        35.7% 35.9%,
-        37.2% 47.2%,
-        44.9% 63.6%,
-        31.1% 69.6%,
-        33.0% 74.1%,
-        31.1% 78.1%,
-        36.3% 84.0%,
-        36.2% 89.0%,
-        35.2% 84.4%,
-        30.1% 80.1%,
-        26.8% 86.3%,
-        27.7% 90.3%,
-        26.1% 86.3%,
-        31.5% 74.2%,
-        28.7% 68.7%,
-        40.4% 62.7%,
-        34.7% 49.4%,
-        13.9% 68.8%,
-        21.0% 75.6%,
-        11.1% 69.2%,
-        13.6% 64.0%,
-        27.9% 46.7%,
-        29.0% 35.8%,
-        22.5% 29.4%,
-        19.0% 35.8%,
-        13.1% 37.5%,
-        11.2% 47.3%,
-        15.4% 51.7%,
-        9.50% 47.2%,
-        10.8% 36.1%,
-        16.9% 33.5%,
-        24.0% 17.4%,
-        18.4% 16.3%,
-        11.0% 16.5%,
-        5.50% 22.8%,
-        6.40% 27.4%,
-        5.60% 29.7%,
-        10.1% 32.3%,
-        3.90% 30.4%,
-        4.70% 26.9%,
-        2.90% 22.0%,
-        8.60% 14.4%,
-        15.8% 11.9%,
-        25.5% 11.8%        
-    );
-}
-
-.lightning__right{
-    animation: lightning_Right_Test;
-    animation-duration: 2375ms;
-    animation-fill-mode:forwards;
-    animation-delay: 625ms;
-
-    opacity: 0;
-    position: absolute;
-    z-index: 10;
-    height: 100%;
-    width: 100%;
-    background-color: #ffffff;
-    clip-path: polygon(
-        34.3% 10.4%,
-        53.9% 19.3%,
-        60.3% 44.8%,
-        92.5% 55.3%,
-        93.2% 61.9%,
-        91.1% 56.7%,
-        77.8% 53.4%,
-        89.4% 70.6%,
-        98.0% 76.4%,
-        93.3% 88.9%,
-        95.9% 77.6%,
-        87.4% 73.7%,
-        72.2% 52.5%,
-        62.4% 49.5%,
-        53.9% 63.8%,
-        66.5% 70.1%,
-        75.6% 68.1%,
-        66.0% 71.9%,
-        48.8% 64.9%,
-        57.4% 48.4%,
-        53.0% 37.4%,
-        44.9% 46.5%,
-        36.9% 47.4%,
-        33.3% 41.6%,
-        37.6% 46.2%,
-        44.2% 44.1%,
-        50.4% 35.0%,
-        47.4% 24.4%,
-        28.8% 21.6%
-    );
-}
-
-@keyframes lightning_Left_Test{
-    0%{
-        opacity: 1;
-    }
-    5%{
-        opacity: 1;
-    }
-    6%{
-        opacity: 0;
-    }
-    21%{
-        opacity: 1;
-    }
-    40%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-
-@keyframes lightning_Right_Test{
-    0%{
-        opacity: 1;
-    }
-    25%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-
-@keyframes zenitsu__FadeIn{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-} */
-
-
-/* trim paths animation */
-
-/* .zenitsu__line-1{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.spacer{
+    height: 80vh;
     background-color: white;
-    animation: zenitsu__line-1__animate;
-    animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
-    clip-path: polygon(
-            45.1% 85.3%,
-            45.1% 85.3%,
-            45.1% 85.3%,
-            54.1% 85.7%,
-            54.1% 85.7%,
-            54.1% 85.7%
-        );
+    width: 20px;
 }
 
-@keyframes zenitsu__line-1__animate{
-    0%{
-        clip-path: polygon(
-            45.1% 85.3%,
-            45.1% 85.3%,
-            45.1% 85.3%,
-            45.1% 85.7%,
-            45.1% 85.7%,
-            45.1% 85.7%
-        );
 
-    }
-    50%{
-        clip-path: polygon(
-            45.1% 85.3%,
-            51.6% 85.3%,
-            51.6% 85.3%,
-            51.8% 85.7%,
-            51.8% 85.7%,
-            45.1% 85.7%
-        );
-    }
-    100%{
-        clip-path: polygon(
-            45.1% 85.3%,
-            51.6% 85.3%,
-            55.3% 81.5%,
-            55.8% 81.5%,
-            51.8% 85.7%,
-            45.1% 85.7%   
-        );
-    }
-} */
 
 :root{
-    --line-time: 1800ms;
+    --line-time: 2500ms;
 }
 
-.line-1{
+.zenitsu__trigger{
+    opacity: 0;
     position: absolute;
-    height: 100%;
+    height:100%;
     width: 100%;
-    background-color: white;
     clip-path: polygon(
-        44.6% 77.8%,
-        47.1% 75.4%,
-        46.7% 76.6%
-    );
+        25.8% 91.3%,
+        25.9% 91.3%,
+        25.9% 91.4%
+    )
 }
 
-.line-2{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    clip-path: polygon(
-        54.6% 77.8%,
-        48.1% 75.4%,
-        47.7% 76.6%
-    );
-}
 
-.line-animation-1{
-    animation: line-animation-1;
-    animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.line-animation-2{
-    animation: line-animation-2;
-    animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes line-animation-1 {
-    100%{
-        background-color: black;
-    }
-}
-
-@keyframes line-animation-2 {
-
-    100%{
-        background-color: rgb(211, 0, 0);
-    }
-}
 
 .zenitsu__outline__1{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 50;
+    z-index: -200;
     opacity: 0;
+}
 
+.zline1{
+    background-color: rgb(255, 255, 255);
     animation: zline1;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
-        clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        21.2% 89.6%,
-        /* bottom section of line points */
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%,
-        21.2% 90.0%
-    );
 }
 
 @keyframes zline1{
     0%{
         opacity: 1;
-    }
-    8%{
-        opacity: 1;
 
     clip-path: polygon(
-        /*Top section of line points*/
         21.2% 89.6%,
         21.2% 89.6%,
         21.2% 89.6%,
@@ -5113,7 +4799,7 @@ piece fits well on the screen.
         21.2% 89.6%,
         21.2% 89.6%,
         21.2% 89.6%,
-        /* bottom section of line points */
+
         21.2% 90.0%,
         21.2% 90.0%,
         21.2% 90.0%,
@@ -5129,9 +4815,8 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    16%{
+    14.6%{
             clip-path: polygon(
-        /*Top section of line points*/
         21.2% 89.6%,
         27.6% 90.1%,
         27.6% 90.1%,
@@ -5145,7 +4830,7 @@ piece fits well on the screen.
         27.6% 90.1%,
         27.6% 90.1%,
         27.6% 90.1%,
-        /* bottom section of line points */
+
         27.6% 90.5%,
         27.6% 90.5%,
         27.6% 90.5%,
@@ -5161,10 +4846,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    24%{
+    19.1%{
             clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         35.8% 88.3%,
@@ -5177,8 +4861,7 @@ piece fits well on the screen.
         35.8% 88.3%,
         35.8% 88.3%,
         35.8% 88.3%,
-        /* bottom section of line points */
-        36.2% 88.6%,
+                 36.2% 88.6%,
         36.2% 88.6%,
         36.2% 88.6%,
         36.2% 88.6%,
@@ -5193,10 +4876,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    32%{
+    23.6%{
             clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+               21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5209,8 +4891,7 @@ piece fits well on the screen.
         36.0% 84.1%,
         36.0% 84.1%,
         36.0% 84.1%,
-        /* bottom section of line points */
-        36.4% 84.0%,
+                 36.4% 84.0%,
         36.4% 84.0%,
         36.4% 84.0%,
         36.4% 84.0%,
@@ -5225,10 +4906,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    40%{
+    29%{
             clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5241,8 +4921,7 @@ piece fits well on the screen.
         33.1% 79.4%,
         33.1% 79.4%,
         33.1% 79.4%,
-        /* bottom section of line points */
-        33.5% 79.4%,
+                 33.5% 79.4%,
         33.5% 79.4%,
         33.5% 79.4%,
         33.5% 79.4%,
@@ -5257,10 +4936,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    48%{
+    33.3%{
     clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5273,8 +4951,7 @@ piece fits well on the screen.
         32.8% 74.0%,
         32.8% 74.0%,
         32.8% 74.0%,
-        /* bottom section of line points */
-        33.2% 73.9%,
+                 33.2% 73.9%,
         33.2% 73.9%,
         33.2% 73.9%,
         33.2% 73.9%,
@@ -5289,10 +4966,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    56%{
+    47.3%{
     clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5305,8 +4981,7 @@ piece fits well on the screen.
         30.7% 69.4%,
         30.7% 69.4%,
         30.7% 69.4%,
-        /* bottom section of line points */
-        31.1% 69.6%,
+                 31.1% 69.6%,
         31.1% 69.6%,
         31.1% 69.6%,
         31.1% 69.6%,
@@ -5321,10 +4996,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    64%{
+    67.9%{
     clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5337,8 +5011,7 @@ piece fits well on the screen.
         44.8% 63.4%,
         44.8% 63.4%,
         44.8% 63.4%,
-        /* bottom section of line points */
-        44.9% 63.9%,
+                 44.9% 63.9%,
         44.9% 63.9%,
         44.9% 63.9%,
         44.9% 63.9%,
@@ -5353,10 +5026,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    72%{
+    78.4%{
     clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5369,8 +5041,7 @@ piece fits well on the screen.
         65.9% 71.5%,
         65.9% 71.5%,
         65.9% 71.5%,
-        /* bottom section of line points */
-        65.9% 71.9%,
+                 65.9% 71.9%,
         65.9% 71.9%,
         65.9% 71.9%,
         65.9% 71.9%,
@@ -5385,10 +5056,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    80%{
+    81.9%{
             clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5401,8 +5071,7 @@ piece fits well on the screen.
         76.5% 72.0%,
         76.5% 72.0%,
         76.5% 72.0%,
-        /* bottom section of line points */
-        76.4% 72.4%,
+                 76.4% 72.4%,
         76.4% 72.4%,
         76.4% 72.4%,
         76.4% 72.4%,
@@ -5417,10 +5086,9 @@ piece fits well on the screen.
         21.2% 90.0%
     );
     }
-    88%{
+    90%{
     clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5433,8 +5101,7 @@ piece fits well on the screen.
         79.6% 74.9%,
         79.6% 74.9%,
         79.6% 74.9%,
-        /* bottom section of line points */
-        79.4% 75.3%,
+                 79.4% 75.3%,
         79.4% 75.3%,
         79.4% 75.3%,
         76.4% 72.4%,
@@ -5451,8 +5118,7 @@ piece fits well on the screen.
     }
     96%{
         clip-path: polygon(
-        /*Top section of line points*/
-        21.2% 89.6%,
+                21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
         36.0% 84.1%,
@@ -5465,8 +5131,7 @@ piece fits well on the screen.
         79.6% 74.9%,
         88.3% 78.5%,
         88.3% 78.5%,
-        /* bottom section of line points */
-        87.8% 78.7%,
+                 87.8% 78.7%,
         87.8% 78.7%,
         79.4% 75.3%,
         76.4% 72.4%,
@@ -5485,7 +5150,6 @@ piece fits well on the screen.
     opacity: 1;
     
         clip-path: polygon(
-        /*Top section of line points*/
         21.2% 89.6%,
         27.6% 90.1%,
         35.8% 88.3%,
@@ -5499,7 +5163,7 @@ piece fits well on the screen.
         79.6% 74.9%,
         88.3% 78.5%,
         86.2% 88.1%,
-        /* bottom section of line points */
+
         85.8% 88.0%,
         87.8% 78.7%,
         79.4% 75.3%,
@@ -5522,83 +5186,23 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 0;
+}
 
+.zline2{
+    background-color: rgb(255, 255, 255);
     animation: zline2;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
-    clip-path: polygon(
-        /* Top Polygons */
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        15.5% 11.5%,
-        /* Bottom Polygons */
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%,
-        15.5% 12.0%
-    );
-
 }
 
 @keyframes zline2{
     0%{
         opacity: 1;
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         15.5% 11.5%,
         15.5% 11.5%,
@@ -5627,7 +5231,7 @@ piece fits well on the screen.
         15.5% 11.5%,
         15.5% 11.5%,
         15.5% 11.5%,
-        /* Bottom Polygons */
+         
         15.5% 12.0%,
         15.5% 12.0%,
         15.5% 12.0%,
@@ -5659,7 +5263,7 @@ piece fits well on the screen.
     );}
     8.6%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         10.2% 14.2%,
@@ -5688,7 +5292,7 @@ piece fits well on the screen.
         10.2% 14.2%,
         10.2% 14.2%,
         10.2% 14.2%,
-        /* Bottom Polygons */
+         
         10.4% 14.6%,
         10.4% 14.6%,
         10.4% 14.6%,
@@ -5720,7 +5324,7 @@ piece fits well on the screen.
     );}
     12.9%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -5749,7 +5353,7 @@ piece fits well on the screen.
         8.40% 14.6%,
         8.40% 14.6%,
         8.40% 14.6%,
-        /* Bottom Polygons */
+         
         8.60% 15.0%,
         8.60% 15.0%,
         8.60% 15.0%,
@@ -5781,7 +5385,7 @@ piece fits well on the screen.
     );}
     17.2%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -5810,7 +5414,7 @@ piece fits well on the screen.
         7.60% 16.5%,
         7.60% 16.5%,
         7.60% 16.5%,
-        /* Bottom Polygons */
+         
         7.90% 16.9%,
         7.90% 16.9%,
         7.90% 16.9%,
@@ -5842,7 +5446,7 @@ piece fits well on the screen.
     );}
     21.5%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -5871,7 +5475,7 @@ piece fits well on the screen.
         4.30% 18.5%,
         4.30% 18.5%,
         4.30% 18.5%,
-        /* Bottom Polygons */
+         
         4.70% 18.7%,
         4.70% 18.7%,
         4.70% 18.7%,
@@ -5903,7 +5507,7 @@ piece fits well on the screen.
     );}
     25.8%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -5932,7 +5536,7 @@ piece fits well on the screen.
         4.60% 20.5%,
         4.60% 20.5%,
         4.60% 20.5%,
-        /* Bottom Polygons */
+         
         4.90% 20.7%,
         4.90% 20.7%,
         4.90% 20.7%,
@@ -5964,7 +5568,7 @@ piece fits well on the screen.
     );}
     30.1%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -5993,7 +5597,7 @@ piece fits well on the screen.
         2.90% 22.3%,
         2.90% 22.3%,
         2.90% 22.3%,
-        /* Bottom Polygons */
+         
         3.40% 22.4%,
         3.40% 22.4%,
         3.40% 22.4%,
@@ -6025,7 +5629,7 @@ piece fits well on the screen.
     );}
     34.4%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6054,7 +5658,7 @@ piece fits well on the screen.
         4.60% 27.5%,
         4.60% 27.5%,
         4.60% 27.5%,
-        /* Bottom Polygons */
+         
         5.10% 27.5%,
         5.10% 27.5%,
         5.10% 27.5%,
@@ -6086,7 +5690,7 @@ piece fits well on the screen.
     );}
     39.7%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6115,7 +5719,7 @@ piece fits well on the screen.
         3.90% 30.3%,
         3.90% 30.3%,
         3.90% 30.3%,
-        /* Bottom Polygons */
+         
         4.40% 30.0%,
         4.40% 30.0%,
         4.40% 30.0%,
@@ -6147,7 +5751,7 @@ piece fits well on the screen.
     );}
     43.0%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6176,7 +5780,7 @@ piece fits well on the screen.
         6.40% 30.9%,
         6.40% 30.9%,
         6.40% 30.9%,
-        /* Bottom Polygons */
+         
         6.70% 30.5%,
         6.70% 30.5%,
         6.70% 30.5%,
@@ -6208,7 +5812,7 @@ piece fits well on the screen.
     );}
     47.3%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6238,7 +5842,7 @@ piece fits well on the screen.
         7.30% 32.5%,
         7.30% 32.5%,
 
-        /* Bottom Polygons */
+         
         7.60% 32.2%,
         7.60% 32.2%,
         7.60% 32.2%,
@@ -6270,7 +5874,7 @@ piece fits well on the screen.
     );}
     51.6%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6300,7 +5904,7 @@ piece fits well on the screen.
         10.0% 32.6%,
         10.0% 32.6%,
 
-        /* Bottom Polygons */
+         
         10.1% 32.2%,
         10.1% 32.2%,
         10.1% 32.2%,
@@ -6332,7 +5936,7 @@ piece fits well on the screen.
     );}
     55.9%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6362,7 +5966,7 @@ piece fits well on the screen.
         11.0% 33.4%,
         11.0% 33.4%,
 
-        /* Bottom Polygons */
+         
         11.4% 33.2%,
         11.4% 33.2%,
         11.4% 33.2%,
@@ -6394,7 +5998,7 @@ piece fits well on the screen.
     );}
     60.2%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6424,7 +6028,7 @@ piece fits well on the screen.
         10.4% 38.6%,
         10.4% 38.6%,
 
-        /* Bottom Polygons */
+         
         10.8% 38.9%,
         10.8% 38.9%,
         10.8% 38.9%,
@@ -6456,7 +6060,7 @@ piece fits well on the screen.
     );}
     64.5%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6485,7 +6089,7 @@ piece fits well on the screen.
         8.90% 43.0%,
         8.90% 43.0%,
         8.90% 43.0%,
-        /* Bottom Polygons */
+         
         9.40% 43.0%,
         9.40% 43.0%,
         9.40% 43.0%,
@@ -6517,7 +6121,7 @@ piece fits well on the screen.
     );}
     68.8%{
     clip-path: polygon(
-        /* Top Polygons */
+         
         15.5% 11.5%,
         10.2% 14.2%,
         8.40% 14.6%,
@@ -6546,7 +6150,7 @@ piece fits well on the screen.
         10.6% 47.4%,
         10.6% 47.4%,
         10.6% 47.4%,
-        /* Bottom Polygons */
+         
         11.1% 47.3%,
         11.1% 47.3%,
         11.1% 47.3%,
@@ -6607,7 +6211,7 @@ piece fits well on the screen.
         9.30% 54.4%,
         9.30% 54.4%,
         9.30% 54.4%,
-        /* Bottom Polygons */
+         
         9.70% 54.5%,
         9.70% 54.5%,
         9.70% 54.5%,
@@ -6668,7 +6272,7 @@ piece fits well on the screen.
         8.20% 62.6%,
         8.20% 62.6%,
         8.20% 62.6%,
-        /* Bottom Polygons */
+         
         8.70% 62.0%,
         8.70% 62.0%,
         8.70% 62.0%,
@@ -6729,7 +6333,7 @@ piece fits well on the screen.
         10.4% 62.1%,
         10.4% 62.1%,
         10.4% 62.1%,
-        /* Bottom Polygons */
+         
         10.7% 61.7%,
         10.7% 61.7%,
         10.7% 61.7%,
@@ -6790,7 +6394,7 @@ piece fits well on the screen.
         11.2% 70.9%,
         11.2% 70.9%,
         11.2% 70.9%,
-        /* Bottom Polygons */
+         
         11.7% 70.6%,
         11.7% 70.6%,
         11.7% 70.6%,
@@ -6851,7 +6455,7 @@ piece fits well on the screen.
         20.7% 75.9%,
         20.7% 75.9%,
         20.7% 75.9%,
-        /* Bottom Polygons */
+         
         21.1% 75.6%,
         21.1% 75.6%,
         21.1% 75.6%,
@@ -6912,7 +6516,7 @@ piece fits well on the screen.
         26.4% 82.7%,
         26.4% 82.7%,
         26.4% 82.7%,
-        /* Bottom Polygons */
+         
         27.0% 82.8%,
         27.0% 82.8%,
         27.0% 82.8%,
@@ -6973,7 +6577,7 @@ piece fits well on the screen.
         26.4% 82.7%,
         19.5% 87.0%,
         19.5% 87.0%,
-        /* Bottom Polygons */
+         
         20.0% 87.1%,
         20.0% 87.1%,
         27.0% 82.8%,
@@ -7035,7 +6639,7 @@ piece fits well on the screen.
         26.4% 82.7%,
         19.5% 87.0%,
         20.4% 89.7%,
-        /* Bottom Polygons */
+         
         20.8% 89.5%,
         20.0% 87.1%,
         27.0% 82.8%,
@@ -7072,15 +6676,16 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 1;
+}
 
+.zline3{    
+    background-color: rgb(255, 255, 255);
     animation: zline3;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes zline3{
@@ -9055,15 +8660,16 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 1;
+}
 
+.zline4{
+    background-color: rgb(255, 255, 255);
     animation: zline4;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes zline4{
@@ -9171,17 +8777,16 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 1;
+}
 
+.zline5{
+    background-color: rgb(255, 255, 255);
     animation: zline5;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
-
-
 }
 
 @keyframes zline5{
@@ -9351,48 +8956,16 @@ piece fits well on the screen.
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 1;
+}
 
+.zline6{
+    background-color: rgb(255, 255, 255);
     animation: zline6;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
-    clip-path: polygon(
-        53.2% 43.2%,
-        47.3% 41.4%,
-        48.8% 38.1%,
-        43.8% 36.2%,
-        37.5% 38.3%,
-        38.6% 39.7%,
-        37.8% 41.4%,
-        22.0% 37.7%,
-        20.2% 40.5%,
-        36.9% 44.3%,
-        37.0% 47.3%,
-        44.7% 46.8%,
-        46.7% 46.1%,
-        55.1% 48.1%,
-
-        54.9% 47.7%,
-        46.7% 45.7%,
-        44.5% 46.5%,
-        37.4% 46.9%,
-        37.3% 44.0%,
-        20.8% 40.4%,
-        22.2% 38.2%,
-        38.1% 41.8%,
-        39.1% 39.6%,
-        38.0% 38.4%,
-        43.8% 36.6%,
-        48.2% 38.3%,
-        46.8% 41.6%,
-        53.1% 43.5%
-
-    );
-
 }
 
 @keyframes zline6{
@@ -9896,17 +9469,16 @@ clip-path: polygon(
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 51;
+    z-index: -200;
     opacity: 1;
+}
 
+.zline7{
+    background-color: rgb(255, 255, 255);
     animation: zline7;
     animation-duration: var(--line-time);
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-
-    
-
 }
 
 @keyframes zline7{
@@ -10187,3 +9759,334 @@ clip-path: polygon(
         52.1% 20.2%
     );}
 }
+
+.zenitsu__outline__8{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -200;
+    opacity: 1;
+}
+
+.zline8{
+    background-color: rgb(255, 255, 255);
+    animation: zline8;
+    animation-duration: var(--line-time);
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zline8{
+    0%{
+        clip-path: polygon(
+        20.2% 49.4%,
+        20.2% 49.4%,
+        20.2% 49.4%,
+        20.2% 49.4%,
+        20.2% 49.4%,
+        20.2% 49.4%,
+
+        20.3% 49.9%,
+        20.3% 49.9%,
+        20.3% 49.9%,
+        20.3% 49.9%,
+        20.3% 49.9%,
+        20.3% 49.9%
+        );
+    }
+
+        
+    20%{
+        clip-path: polygon(
+            20.2% 49.4%,
+            25.9% 47.1%,
+            25.9% 47.1%,
+            25.9% 47.1%,
+            25.9% 47.1%,
+            25.9% 47.1%,
+
+            26.5% 47.3%,
+            26.5% 47.3%,
+            26.5% 47.3%,
+            26.5% 47.3%,
+            26.5% 47.3%,
+            20.3% 49.9%
+        );
+    }
+
+    40%{
+        clip-path: polygon(
+            20.2% 49.4%,
+            25.9% 47.1%,
+            25.6% 46.6%,
+            25.6% 46.6%,
+            25.6% 46.6%,
+            25.6% 46.6%,
+
+            26.2% 46.6%,
+            26.2% 46.6%,
+            26.2% 46.6%,
+            26.2% 46.6%,
+            26.5% 47.3%,
+            20.3% 49.9%
+        );
+    }
+
+    60%{
+        clip-path: polygon(
+            20.2% 49.4%,
+            25.9% 47.1%,
+            25.6% 46.6%,
+            28.2% 44.4%,
+            28.2% 44.4%,
+            28.2% 44.4%,
+
+            28.3% 44.9%,
+            28.3% 44.9%,
+            28.3% 44.9%,
+            26.2% 46.6%,
+            26.5% 47.3%,
+            20.3% 49.9%
+        );
+    }
+
+    80%{
+        clip-path: polygon(
+            20.2% 49.4%,
+            25.9% 47.1%,
+            25.6% 46.6%,
+            28.2% 44.4%,
+            35.6% 44.5%,
+            35.6% 44.5%,
+
+            35.8% 44.9%,
+            35.8% 44.9%,
+            28.3% 44.9%,
+            26.2% 46.6%,
+            26.5% 47.3%,
+            20.3% 49.9%
+        );
+    }
+
+    100%{
+        clip-path: polygon(
+            20.2% 49.4%,
+            25.9% 47.1%,
+            25.6% 46.6%,
+            28.2% 44.4%,
+            35.6% 44.5%,
+            36.0% 43.9%,
+
+            36.4% 44.1%,
+            35.8% 44.9%,
+            28.3% 44.9%,
+            26.2% 46.6%,
+            26.5% 47.3%,
+            20.3% 49.9%
+        );
+    }
+}
+
+.zenitsu__outline__9{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -200;
+    opacity: 1;
+}
+
+.zline9{
+    background-color: rgb(255, 255, 255);
+    animation: zline9;
+    animation-duration: var(--line-time);
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zline9{
+    0%{
+         clip-path: polygon(
+            21.8% 43.0%,
+            21.8% 43.0%,
+            21.8% 43.0%,
+
+            21.8% 43.4%,
+            21.8% 43.4%,
+            21.8% 43.4%
+        );       
+    }
+
+    50%{
+        clip-path: polygon(
+            21.8% 43.0%,
+            23.8% 42.8%,
+            23.8% 42.8%,
+
+            24.0% 43.2%,
+            24.0% 43.2%,
+            21.8% 43.4%
+        );
+    }
+
+    100%{
+        clip-path: polygon(
+            21.8% 43.0%,
+            23.8% 42.8%,
+            25.1% 41.6%,
+
+            25.5% 41.8%,
+            24.0% 43.2%,
+            21.8% 43.4%
+        );
+    }
+}
+
+.zenitsu__outline__10{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -200;
+    opacity: 1;
+}
+
+.zline10{
+    background-color: rgb(255, 255, 255);
+    animation: zline3;
+    animation-duration: var(--line-time);
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zline10{
+    0%{
+        clip-path: polygon(
+            20.9% 75.6%,
+            20.9% 75.6%,
+
+            21.1% 76.0%,
+            21.1% 76.0%
+        );
+    }
+
+    100%{
+        clip-path: polygon(
+            20.9% 75.6%,
+            30.7% 69.4%,
+
+            31.0% 69.9%,
+            21.1% 76.0%
+        );
+    }
+}
+
+.zenitsu__outline__11{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -200;
+    opacity: 1;
+}
+
+.zline11{
+    background-color: rgb(255, 255, 255);
+    animation: zline11;
+    animation-duration: var(--line-time);
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zline11{
+
+    0%{
+        clip-path: polygon(
+        76.2% 72.0%,
+        76.2% 72.0%,
+        76.2% 72.0%,
+
+        76.5% 72.3%,
+        76.5% 72.3%,
+        76.5% 72.3%
+        );
+    }
+
+    50%{
+        clip-path: polygon(
+        76.2% 72.0%,
+        80.7% 67.3%,
+        80.7% 67.3%,
+
+        81.0% 67.6%,
+        81.0% 67.6%,
+        76.5% 72.3%
+        );
+    }
+    100%{
+        clip-path: polygon(
+        76.2% 72.0%,
+        80.7% 67.3%,
+        82.0% 62.4%,
+
+        82.4% 62.5%,
+        81.0% 67.6%,
+        76.5% 72.3%
+        );
+    }
+}
+
+/* This class covers the outlines 
+we made and is attached using JS. */
+
+.zenitsu_cover_on{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #6e6e6e;
+    z-index: -100;
+    opacity: 0;
+}
+
+.zenitsu_cover_animate_in{
+    animation: cover_fade;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    background-color: #6e6e6e;
+    z-index: -100;
+}
+
+@keyframes cover_fade {
+    0%{
+        opacity: 0;
+        z-index: -100;
+    }
+    100%{
+        opacity: 1;
+        z-index: -100;
+    }
+}
+
+.zenitsu__character{
+    opacity: 0;
+    background-color: white;
+    color: white;
+}
+
+.zRevealed_on{
+    animation: zRevealed_on;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 150;
+}
+
+@keyframes zRevealed_on {
+    0%{
+        opacity:0;
+        
+    }
+    100%{
+        opacity:1;
+    }
+} 
