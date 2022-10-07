@@ -15,17 +15,12 @@ body{
 }
 
 .hero__hide{
-/* This class creates the container that 
-hides the overflow of any content that is 
-nested in this div. Necessary for mobile. */
+        position: relative;
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-            /* This overflow causes a small bug
-            in horizontal mobile displays as it
-            cuts off the bottom portion of the
-            animation. Small edge-case, for the
-            most part this works as intended. */
+        /* background-color: blue; */
+        
     }
 
 
@@ -473,31 +468,38 @@ nested in this div. Necessary for mobile. */
 }
 
 
-    
+ 
 .wrapper__Vi{
         height: 100vh;
-        /* background-color: white; */
+        /* background-color: rgb(255, 255, 108); */
     }
 
 .container__Vi{
-    position: relative;
-    margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
-    /* background-color: white; */
+    position: relative;
+    margin: 0 auto;
+    height: 88vh;
+    width: 100vh;
+    max-height: 1056px;
+    max-width: 1200px;
+    
+}
+
+@media all and (max-width: 900px){
+
+
+.container__Vi{    
     height: 88vw;
     width: 100vw;
-    max-width: 1200px;
-    max-height: 1056px;
+}
 }
 
 
 
 .container__all{
     position: relative;
-    margin: 100px auto 100px auto;
-    width: 90vh;
-    height: 90vh;
+    margin: 0px auto 0px auto;
     max-width: 1200px;
     max-height: 1200px;
 /* Use this container for all artworks other than
