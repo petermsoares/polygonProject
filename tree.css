@@ -4,7 +4,7 @@
     --b3: #d3af7d;
     --b4: #d6b689;
     --b5: #d8bc95;
-    --growTime: 80ms;
+    --growTime: 4500ms;
 }
 .tree__wrapper{
     height: 100vh;

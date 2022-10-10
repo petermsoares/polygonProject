@@ -30,7 +30,7 @@ const observerTreePolygon = new IntersectionObserver(entries => {
         }
         else{
             animateTree()
-            setTimeout(() => {animateBranchA()}, 4000);
+            setTimeout(() => {animateBranchA()}, 5000);
         }     
                             }
                     )
@@ -46,7 +46,7 @@ function animateTree(){
             setTimeout(() => {       
             console.log([i])        
             piece.classList.add(`${tree_animations}${[i]}`)
-            }, i * 80)
+            }, i * 12)
         })
 }
 
