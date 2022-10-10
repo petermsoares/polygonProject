@@ -1,32 +1,40 @@
 :root{
-    --b1: #b37947;
-    --b2: #DAA06D;
-    --b3: #e0c49a;
+    --b1: #c29961;
+    --b2: #caa46e;
+    --b3: #d3af7d;
+    --b4: #d6b689;
+    --b5: #d8bc95;
+    --growTime: 80ms;
 }
 .tree__wrapper{
     height: 100vh;
 }
 
-.tree__polygon__base1{
-    z-index: -1;
+.tree__polygon__base0{
+    opacity: 0;
+    z-index: 0;
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: var(--b1);
+}
 
-    animation-name: tbase1;
-    animation-duration: 100ms;
+.tbase0{
+    animation-name: tbase0;
+    animation-duration: var(--growTime);
     animation-fill-mode: forwards;
 }
 
-@keyframes tbase1 {
+@keyframes tbase0 {
     0%{
+    opacity: 1;
     clip-path: polygon(
         70.1% 98.0%,
         32.4% 98.1%,
         32.4% 98.1%
     );}
     100%{
+        opacity: 1;
         clip-path: polygon(
         70.1% 98.0%,
         32.4% 98.1%,
@@ -35,25 +43,22 @@
     }
 }
 
-
-
-.tree__polygon__base2{
-    z-index: -2;
+.tree__polygon__base1{
+    z-index: -1;
     opacity: 0;
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: var(--b2);
-
-    animation-name: tbase2;
-    animation-duration: 100ms;
-    animation-fill-mode: forwards;
-    animation-delay: 100ms
-
-
 }
 
-@keyframes tbase2 {
+.tbase1{
+    animation-name: tbase1;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase1 {
     0%{
     opacity: 1;
     clip-path: polygon(
@@ -72,27 +77,22 @@
     }
 }
 
-.tree__polygon__base3{
-    z-index: -3;
+.tree__polygon__base2{
+    z-index: -2;
     opacity: 0;
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: var(--b3);
-
-    animation-name: tbase3;
-    animation-duration: 100ms;
-    animation-fill-mode: forwards;
-    animation-delay: 200ms;
-
-    clip-path: polygon(
-        70.1% 98.0%,
-        37.8% 92.3%,
-        40.1% 88.9%
-    );
 }
 
-@keyframes tbase3 {
+.tbase2{
+    animation-name: tbase2;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase2 {
     0%{
     opacity: 1;
     clip-path: polygon(
@@ -108,5 +108,1303 @@
         37.8% 92.3%,
         40.1% 88.9%
     );
+    }
+}
+
+.tree__polygon__base3{
+    z-index: -3;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase3{
+    animation-name: tbase3;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase3 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        70.1% 98.0%,
+        40.7% 89.3%,
+        40.7% 89.3%
+    );
+}
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        70.1% 98.0%,
+        40.7% 89.3%,
+        42.8% 86.5%
+    );
+    }
+}
+
+.tree__polygon__base4{
+    z-index: -4;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase4{
+    animation-name: tbase4;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase4 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        70.1% 98.0%,
+        70.1% 98.0%,
+        42.8% 86.5%
+    );
+}
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        69.1% 94.8%,
+        70.1% 98.0%,
+        42.8% 86.5%       
+    );
+    }
+}
+
+
+
+.tree__polygon__base5{
+    z-index: -5;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase5{
+    animation-name: tbase5;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase5 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        68.5% 94.9%,
+        68.5% 94.9%
+    );
+}
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 86.5%,
+        68.5% 94.9%,
+        66.8% 91.7%
+    );
+    }
+}
+
+.tree__polygon__base6{
+    z-index: -6;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase6{
+    animation-name: tbase6;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase6 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        65.9% 91.7%,
+        65.9% 91.7%
+    );
+}
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 86.5%,
+        65.9% 91.7%,
+        62.7% 88.2%
+    );
+    }
+}
+
+
+.tree__polygon__base7{
+    z-index: -7;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase7{
+    animation-name: tbase7;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase7 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        62.2% 88.3%,
+        62.2% 88.3%
+    );
+}
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 86.5%,
+        62.2% 88.3%,
+        60.2% 85.7%
+    );
+    }
+}
+
+.tree__polygon__base8{
+    z-index: -8;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase8{
+    animation-name: tbase8;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase8 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        59.9% 85.8%,
+        59.9% 85.8%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 86.5%,
+        59.9% 85.8%,
+        58.5% 83.9%
+    );    }     }
+
+.tree__polygon__base9{
+    z-index: -9;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase9{
+    animation-name: tbase9;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase9 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        42.8% 86.5%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 86.5%,
+        41.9% 84.1%,
+        58.5% 83.9%
+    );    }     }
+
+.tree__polygon__base10{
+    z-index: -10;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase10{
+    animation-name: tbase10;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase10 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.8% 86.5%,
+        42.8% 86.5%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.6% 84.2%,
+        41.2% 81.5%,
+        58.5% 83.9%
+    );    }     }
+
+
+.tree__polygon__base11{
+    z-index: -11;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase11{
+    animation-name: tbase11;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase11 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        41.5% 81.7%,
+        41.5% 81.7%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        41.5% 81.7%,
+        40.0% 79.7%,
+        58.5% 83.9%
+    );    }     }
+
+
+.tree__polygon__base12{
+    z-index: -12;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase12{
+    animation-name: tbase12;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase12 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        40.5% 80.0%,
+        40.5% 80.0%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        40.5% 80.0%,
+        38.5% 77.5%,
+        58.5% 83.9%
+    );    }     }
+
+
+.tree__polygon__base13{
+    z-index: -13;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase13{
+    animation-name: tbase13;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase13 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        58.5% 83.9%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        59.6% 80.3%,
+        58.5% 83.9%
+    );    }     }
+
+.tree__polygon__base14{
+    z-index: -14;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase14{
+    animation-name: tbase14;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase14 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        58.5% 83.9%,
+        58.5% 83.9%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        58.8% 80.4%,
+        57.7% 77.2%
+    );    }     }
+
+.tree__polygon__base15{
+    z-index: -15;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase15{
+    animation-name: tbase15;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase15 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        57.2% 77.4%,
+        57.2% 77.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        57.2% 77.4%,
+        56.3% 74.9%
+    );    }     }
+
+.tree__polygon__base16{
+    z-index: -16;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase16{
+    animation-name: tbase16;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase16 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        57.2% 77.4%,
+        57.2% 77.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        55.5% 75.2%,
+        54.4% 73.2%
+    );    }     }
+
+.tree__polygon__base17{
+    z-index: -17;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase17{
+    animation-name: tbase17;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase17 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        54.1% 73.4%,
+        54.1% 73.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        54.1% 73.4%,
+        52.5% 71.1%
+    );    }     }
+
+.tree__polygon__base18{
+    z-index: -18;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase18{
+    animation-name: tbase18;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase18 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        54.1% 73.4%,
+        54.1% 73.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        52.1% 71.4%,
+        49.7% 69.0%
+    );    }     }
+
+.tree__polygon__base19{
+    z-index: -19;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase19{
+    animation-name: tbase19;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase19 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        49.4% 69.6%,
+        49.4% 69.6%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        49.4% 69.6%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base20{
+    z-index: -20;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase20{
+    animation-name: tbase20;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase20 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        38.5% 77.5%,
+        38.5% 77.5%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.5% 77.5%,
+        35.7% 75.6%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base21{
+    z-index: -21;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase21{
+    animation-name: tbase21;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase21 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        36.0% 75.6%,
+        36.0% 75.6%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        36.0% 75.6%,
+        33.9% 73.7%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base22{
+    z-index: -22;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase22{
+    animation-name: tbase22;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase22 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        34.3% 73.7%,
+        34.3% 73.7%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        34.3% 73.7%,
+        32.3% 71.9%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base23{
+    z-index: -23;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase23{
+    animation-name: tbase23;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase23 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        32.7% 71.9%,
+        32.7% 71.9%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        32.7% 71.9%,
+        30.4% 70.3%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base24{
+    z-index: -24;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase24{
+    animation-name: tbase24;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase24 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        30.7% 70.3%,
+        30.7% 70.3%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        30.7% 70.3%,
+        28.8% 68.7%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base25{
+    z-index: -25;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase25{
+    animation-name: tbase25;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase25 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        29.2% 68.8%,
+        29.2% 68.8%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        29.2% 68.8%,
+        27.4% 66.9%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base26{
+    z-index: -26;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase26{
+    animation-name: tbase26;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase26 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        27.6% 67.0%,
+        27.6% 67.0%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        27.6% 67.0%,
+        26.6% 65.4%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base27{
+    z-index: -27;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase27{
+    animation-name: tbase27;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase27 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        27.6% 67.0%,
+        27.6% 67.0%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.8% 65.5%,
+        25.6% 63.5%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base28{
+    z-index: -28;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase28{
+    animation-name: tbase28;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase28 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        25.8% 63.6%,
+        25.8% 63.6%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        25.8% 63.6%,
+        24.5% 61.3%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base29{
+    z-index: -29;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase29{
+    animation-name: tbase29;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase29 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        24.7% 61.5%,
+        24.7% 61.5%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        24.7% 61.5%,
+        23.5% 59.1%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base30{
+    z-index: -30;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase30{
+    animation-name: tbase30;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase30 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        23.9% 59.5%,
+        23.9% 59.5%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        23.9% 59.5%,
+        23.8% 57.1%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base31{
+    z-index: -31;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase31{
+    animation-name: tbase31;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase31 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        23.9% 57.2%,
+        23.9% 57.2%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        23.9% 57.2%,
+        24.8% 55.0%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base32{
+    z-index: -32;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase32{
+    animation-name: tbase32;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase32 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        23.9% 57.2%,
+        23.9% 57.2%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        24.9% 55.2%,
+        26.0% 53.7%,
+        47.4% 67.2%
+    );    }     }
+
+.tree__polygon__base33{
+    z-index: -33;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase33{
+    animation-name: tbase33;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase33 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        26.0% 53.7%,
+        47.4% 67.2%,
+        47.4% 67.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.0% 53.7%,
+        47.4% 67.2%,
+        46.1% 63.6%
+    );    }     }
+
+.tree__polygon__base34{
+    z-index: -34;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase34{
+    animation-name: tbase34;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase34 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        26.0% 53.7%,
+        45.7% 64.0%,
+        45.7% 64.0%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.0% 53.7%,
+        45.7% 64.0%,
+        45.2% 61.1%
+    );    }     }
+
+.tree__polygon__base35{
+    z-index: -35;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase35{
+    animation-name: tbase35;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase35 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        26.0% 53.7%,
+        44.8% 61.2%,
+        44.8% 61.2%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.0% 53.7%,
+        44.8% 61.2%,
+        44.0% 58.6%
+    );    }     }
+
+.tree__polygon__base36{
+    z-index: -36;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase36{
+    animation-name: tbase36;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase36 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        26.0% 53.7%,
+        43.7% 58.6%,
+        43.7% 58.6%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.0% 53.7%,
+        43.7% 58.6%,
+        42.2% 56.2%
+    );    }     }
+
+.tree__polygon__base37{
+    z-index: -37;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase37{
+    animation-name: tbase37;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase37 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        26.0% 53.7%,
+        42.3% 56.4%,
+        42.3% 56.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.0% 53.7%,
+        42.3% 56.4%,
+        41.5% 54.4%
+    );    }     }
+
+
+.tree__polygon__base38{
+    z-index: -38;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);
+}
+
+.tbase38{
+    animation-name: tbase38;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase38 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        41.5% 54.4%,
+        42.3% 56.4%,
+        41.5% 54.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        46.9% 50.7%,
+        42.3% 56.4%,
+        41.5% 54.4%
+    );    }     }
+
+.tree__polygon__base39{
+    z-index: -39;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);
+}
+
+.tbase39{
+    animation-name: tbase39;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase39 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        46.9% 50.7%,
+        42.3% 56.4%,
+        42.3% 56.4%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        46.9% 50.7%,
+        42.3% 56.4%,
+        28.9% 53.8%
+    );    }     }
+
+.tree__polygon__base40{
+    z-index: -40;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);
+}
+
+.tbase40{
+    animation-name: tbase40;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase40 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        46.9% 50.7%,
+        46.9% 50.7%,
+        28.9% 53.8%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        46.9% 50.7%,
+        45.8% 47.9%,
+        28.9% 53.8%
+    );    }     }
+
+.tree__polygon__base41{
+    z-index: -41;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);
+}
+
+.tbase41{
+    animation-name: tbase41;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase41 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        43.3% 49.0%,
+        43.3% 49.0%,
+        28.9% 53.8%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        43.3% 49.0%,
+        42.2% 45.7%,
+        28.9% 53.8%
+    );    }     }
+
+.tree__polygon__base42{
+    z-index: -42;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);
+}
+
+.tbase42{
+    animation-name: tbase42;
+    animation-fill-mode: forwards;
+    animation-duration: var(--growTime);
+}
+
+@keyframes tbase42 {
+    0%{
+    opacity: 1;
+    clip-path: polygon(
+        42.1% 46.1%,
+        42.1% 46.1%,
+        28.9% 53.8%
+    );  }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        42.1% 46.1%,
+        40.1% 42.2%,
+        28.9% 53.8%
+    );    }     }
+
+    /* Tree Branch Animations */
+
+.branch__A0{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchA_0{
+    animation-name: tbranchA_0;
+    animation-fill-mode: forwards;
+    animation-duration: 500ms;
+}
+
+@keyframes tbranchA_0{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        40.2% 42.2%,
+        40.2% 42.2%,
+        34.8% 48.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        40.2% 42.2%,
+        36.6% 37.2%,
+        34.8% 48.0%
+        );
     }
 }
