@@ -32,6 +32,10 @@ const treeBranchAnimationsD = "tbranchD_"
 const treeBranchPolygonsD = document.querySelectorAll(".tree_branch_D")
 const treeBranchArrayD = Array.from(treeBranchPolygonsD)
 
+const leaves_animations = "animate_leaves_"
+const leaves_polygons = document.querySelectorAll(".leaves_polygon")
+const leavesArray = Array.from(leaves_polygons)
+
 
 
 //Tree animation
@@ -46,6 +50,7 @@ const observerTreePolygon = new IntersectionObserver(entries => {
             setTimeout(() => {animateBranchB()}, 3300);
             setTimeout(() => {animateBranchC()}, 3300);
             setTimeout(() => {animateBranchD()}, 3300);
+            setTimeout(() => {animateLeaves()}, 5000);
         }     
                             }
                     )
@@ -55,6 +60,17 @@ const observerTreePolygon = new IntersectionObserver(entries => {
 treeTrigger.forEach(section => {
     observerTreePolygon.observe(section)
 })
+
+//Animates the base of the tree
+function animateLeaves(){
+    // console.log(`animateLeaves() number: ${[i]}`)
+    leavesArray.forEach((piece, i) => { 
+            setTimeout(() => {               
+            piece.classList.add(`${leaves_animations}${[i]}`)
+            }, i * 12)
+        })
+}
+
 //Animates the base of the tree
 function animateTree(){
     treeArray.forEach((piece, i) => { 
