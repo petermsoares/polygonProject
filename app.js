@@ -67,7 +67,7 @@ function animateLeaves(){
     leavesArray.forEach((piece, i) => { 
             setTimeout(() => {               
             piece.classList.add(`${leaves_animations}${[i]}`)
-            }, i * 12)
+            }, i * 300)
         })
 }
 
