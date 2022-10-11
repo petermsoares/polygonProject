@@ -19,6 +19,18 @@ const treeBranchAnimationsA = "tbranchA_"
 const treeBranchPolygonsA = document.querySelectorAll(".tree_branch_A")
 const treeBranchArrayA = Array.from(treeBranchPolygonsA)
 
+const treeBranchAnimationsB = "tbranchB_"
+const treeBranchPolygonsB = document.querySelectorAll(".tree_branch_B")
+const treeBranchArrayB = Array.from(treeBranchPolygonsB)
+
+
+const treeBranchAnimationsC = "tbranchC_"
+const treeBranchPolygonsC = document.querySelectorAll(".tree_branch_C")
+const treeBranchArrayC = Array.from(treeBranchPolygonsC)
+
+const treeBranchAnimationsD = "tbranchD_"
+const treeBranchPolygonsD = document.querySelectorAll(".tree_branch_D")
+const treeBranchArrayD = Array.from(treeBranchPolygonsD)
 
 
 
@@ -30,13 +42,16 @@ const observerTreePolygon = new IntersectionObserver(entries => {
         }
         else{
             animateTree()
-            setTimeout(() => {animateBranchA()}, 5000);
+            setTimeout(() => {animateBranchA()}, 3300);
+            setTimeout(() => {animateBranchB()}, 3300);
+            setTimeout(() => {animateBranchC()}, 3300);
+            setTimeout(() => {animateBranchD()}, 3300);
         }     
                             }
                     )
                                                                 }
                                                     )
-//Tree intersection observer 
+//Tree intersection observer.
 treeTrigger.forEach(section => {
     observerTreePolygon.observe(section)
 })
@@ -44,21 +59,46 @@ treeTrigger.forEach(section => {
 function animateTree(){
     treeArray.forEach((piece, i) => { 
             setTimeout(() => {       
-            console.log([i])        
+            // console.log([i])        
             piece.classList.add(`${tree_animations}${[i]}`)
             }, i * 12)
         })
 }
-
+//Animates the A-Branch of the tree
 function animateBranchA(){
     treeBranchArrayA.forEach((piece, i) => { 
             setTimeout(() => {       
-            console.log([i])        
+            // console.log([i])        
             piece.classList.add(`${treeBranchAnimationsA}${[i]}`)
+            }, i * 12)
+        })}
+
+//Animates the B-Branch of the tree
+function animateBranchB(){
+    treeBranchArrayB.forEach((piece, i) => { 
+            setTimeout(() => {       
+            // console.log([i])        
+            piece.classList.add(`${treeBranchAnimationsB}${[i]}`)
             }, i * 80)
         })}
 
+//Animates the C-Branch of the tree
+function animateBranchC(){
+    treeBranchArrayC.forEach((piece, i) => { 
+            setTimeout(() => {       
+            // console.log([i])        
+            piece.classList.add(`${treeBranchAnimationsC}${[i]}`)
+            }, i * 80)
+        })}
 
+//Animates the D-Branch of the tree
+function animateBranchD(){
+    treeBranchArrayD.forEach((piece, i) => { 
+            setTimeout(() => {       
+            // console.log([i])        
+            piece.classList.add(`${treeBranchAnimationsD}${[i]}`)
+            }, i * 80)
+        })}
 
 //Zenitsu animation
 const observerZPolygon = new IntersectionObserver(entries => {
@@ -101,14 +141,11 @@ const observerViPolygon = new IntersectionObserver(entries => {
         if(!entry.isIntersecting){
             return
         }
-        else{    
-            
+        else{  
             viPolygons.forEach((piece, i) => { 
-                setTimeout(() => {               
-            piece.classList.add("viPolygonAnimate")
+                setTimeout(() => {
+                    piece.classList.add("viPolygonAnimate")
             }, i * 20);
-            
-        
         })      
     }
     })
@@ -123,8 +160,7 @@ const observerViDescription = new IntersectionObserver(entries => {
         if(!entry.isIntersecting){
             return
         }
-        else{    
-            
+        else{
             viDescription.forEach((description) => { 
                 setTimeout(() => {               
             description.classList.add("viDescriptoin__Fade")

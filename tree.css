@@ -4,7 +4,9 @@
     --b3: #d3af7d;
     --b4: #d6b689;
     --b5: #d8bc95;
-    --growTime: 4500ms;
+    --growTime: 2800ms;
+
+    --bATime: 1000ms;
 }
 .tree__wrapper{
     height: 100vh;
@@ -1213,8 +1215,8 @@
         opacity: 1;
         clip-path: polygon(
         26.0% 53.7%,
-        42.3% 56.4%,
-        41.5% 54.4%
+        41.5% 54.4%,
+        42.3% 56.4%
     );    }     }
 
 
@@ -1237,9 +1239,9 @@
     0%{
     opacity: 1;
     clip-path: polygon(
-        41.5% 54.4%,
+        46.9% 50.7%,
         42.3% 56.4%,
-        41.5% 54.4%
+        42.3% 56.4%
     );  }
     100%{
         opacity: 1;
@@ -1268,15 +1270,15 @@
     0%{
     opacity: 1;
     clip-path: polygon(
-        46.9% 50.7%,
-        42.3% 56.4%,
-        42.3% 56.4%
+        41.5% 54.4%,
+        41.5% 54.4%,
+        28.9% 53.8%
     );  }
     100%{
         opacity: 1;
         clip-path: polygon(
         46.9% 50.7%,
-        42.3% 56.4%,
+        41.5% 54.4%,
         28.9% 53.8%
     );    }     }
 
@@ -1387,24 +1389,1302 @@
 .tbranchA_0{
     animation-name: tbranchA_0;
     animation-fill-mode: forwards;
-    animation-duration: 500ms;
+    animation-duration: var(--bATime);
 }
 
 @keyframes tbranchA_0{
     0%{
         opacity: 1;
         clip-path: polygon(
-        40.2% 42.2%,
-        40.2% 42.2%,
+        40.0% 42.4%,
+        40.0% 42.4%,
         34.8% 48.0%
         );
     }
     100%{
         opacity: 1;
         clip-path: polygon(
-        40.2% 42.2%,
+        40% 42.4%,
         36.6% 37.2%,
         34.8% 48.0%
+        );    } }
+
+.branch__A1{
+    z-index: -45;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchA_1{
+    animation-name: tbranchA_1;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_1{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        35.7% 43.0%,
+        35.7% 43.0%,
+        36.6% 37.2%
         );
     }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        31.1% 35.5%,
+        35.7% 43.0%,
+        36.6% 37.2%
+        );    } }
+
+.branch__A2{
+    z-index: -46;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
 }
+
+.tbranchA_2{
+    animation-name: tbranchA_2;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_2{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        31.1% 35.5%,
+        31.1% 35.5%,
+        36.6% 37.2%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        31.1% 35.5%,
+        31.2% 31.4%,
+        36.6% 37.2%
+        );    } }
+
+.branch__A3{
+    z-index: -46;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchA_3{
+    animation-name: tbranchA_3;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_3{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        31.1% 35.5%,
+        31.2% 32.9%,
+        31.1% 35.5%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        31.1% 35.5%,
+        31.2% 32.9%,
+        27.0% 34.3%
+        );    } }
+
+.branch__A4{
+    z-index: -46;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchA_4{
+    animation-name: tbranchA_4;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_4{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        27.0% 34.3%,
+        31.2% 32.9%,
+        27.0% 34.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        21.6% 31.2%,
+        31.2% 32.9%,
+        27.0% 34.3%
+        );    } }
+
+.branch__A5{
+    z-index: -47;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchA_5{
+    animation-name: tbranchA_5;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_5{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        21.6% 31.2%,
+        24.6% 31.8%,
+        21.6% 31.2%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        21.6% 31.2%,
+        24.6% 31.8%,
+        19.4% 27.5%
+        );    } }
+
+.branch__A6{
+    z-index: -47;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchA_6{
+    animation-name: tbranchA_6;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_6{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        20.5% 29.1%,
+        20.5% 29.1%,
+        19.4% 27.5%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        20.5% 29.1%,
+        12.1% 24.7%,
+        19.4% 27.5%
+        );    } }
+
+.branch__A7{
+    z-index: -48;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchA_7{
+    animation-name: tbranchA_7;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_7{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        31.2% 32.9%,
+        31.2% 31.4%,
+        31.2% 32.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        31.2% 32.9%,
+        31.2% 31.4%,
+        28.6% 30.9%
+        );    } }
+
+.branch__A8{
+    z-index: -48;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchA_8{
+    animation-name: tbranchA_8;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_8{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        28.6% 30.9%,
+        31.2% 31.4%,
+        28.6% 30.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.6% 22.6%,
+        31.2% 31.4%,
+        28.6% 30.9%
+        );    } }
+
+.branch__A9{
+    z-index: -49;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchA_9{
+    animation-name: tbranchA_9;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchA_9{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        26.6% 22.6%,
+        27.1% 24.1%,
+        26.6% 22.6%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        26.6% 22.6%,
+        27.1% 24.1%,
+        21.8% 18.9%
+        );    } }
+
+.branch__B0{
+    z-index: -49;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchB_0{
+    animation-name: tbranchB_0;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_0{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        38.3% 51.1%,
+        46.8% 47.9%,
+        46.8% 47.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        38.3% 51.1%,
+        46.8% 47.9%,
+        46.9% 38.4%
+        );    } }
+
+.branch__B1{
+    z-index: -50;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchB_1{
+    animation-name: tbranchB_1;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_1{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        41.9% 46.2%,
+        46.9% 38.4%,
+        46.9% 38.4%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        41.9% 46.2%,
+        41.3% 33.3%,
+        46.9% 38.4%
+        );    } }
+
+.branch__B2{
+    z-index: -50;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchB_2{
+    animation-name: tbranchB_2;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_2{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        45.4% 37.2%,
+        41.3% 33.3%,
+        41.3% 33.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        45.4% 37.2%,
+        44.1% 25.9%,
+        41.3% 33.3%
+        );    } }
+
+.branch__B3{
+    z-index: -50;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchB_3{
+    animation-name: tbranchB_3;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_3{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        41.8% 32.6%,
+        43.1% 28.8%,
+        41.8% 32.6%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        41.8% 32.6%,
+        43.1% 28.8%,
+        40.5% 24.9%
+        );    } }
+
+.branch__B4{
+    z-index: -50;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchB_4{
+    animation-name: tbranchB_4;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_4{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        40.5% 24.8%,
+        41.3% 29.0%,
+        41.3% 29.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        40.5% 24.8%,
+        41.3% 29.0%,
+        35.8% 21.1%
+        );    } }
+
+.branch__B5{
+    z-index: -50;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchB_5{
+    animation-name: tbranchB_5;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_5{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        35.8% 21.1%,
+        37.1% 22.2%,
+        35.8% 21.1%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        35.8% 21.1%,
+        37.1% 22.2%,
+        34.7% 16.4%
+        );    } }
+
+.branch__B6{
+    z-index: -51;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchB_6{
+    animation-name: tbranchB_6;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_6{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        40.5% 24.9%,
+        38.6% 23.7%,
+        38.6% 23.7%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        40.5% 24.9%,
+        38.6% 23.7%,
+        39.2% 17.9%
+        );    } }
+
+.branch__B7{
+    z-index: -51;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchB_7{
+    animation-name: tbranchB_7;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_7{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        39.5% 19.5%,
+        39.5% 19.5%,
+        39.2% 17.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        39.5% 19.5%,
+        42.2% 12.4%,
+        39.2% 17.9%
+        );    } }
+
+.branch__B8{
+    z-index: -52;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchB_8{
+    animation-name: tbranchB_8;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_8{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        43.2% 29.0%,
+        44.1% 25.9%,
+        44.1% 25.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        43.2% 29.0%,
+        44.1% 25.9%,
+        42.2% 24.6%
+        );    } }
+
+.branch__B9{
+    z-index: -52;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchB_9{
+    animation-name: tbranchB_9;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_9{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        44.1% 25.9%,
+        44.1% 25.9%,
+        42.2% 24.6%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        49.9% 17.6%,
+        44.1% 25.9%,
+        42.2% 24.6%
+        );    } }
+
+.branch__B10{
+    z-index: -52;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchB_10{
+    animation-name: tbranchB_10;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchB_10{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        49.9% 17.6%,
+        48.3% 19.2%,
+        49.9% 17.6%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        49.9% 17.6%,
+        48.3% 19.2%,
+        49.5% 13.1%
+        );    } }
+
+.branch__C0{
+    z-index: -43;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchC_0{
+    animation-name: tbranchC_0;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_0{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        46.9% 50.7%,
+        45.8% 47.9%,
+        46.9% 50.7%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        46.9% 50.7%,
+        45.8% 47.9%,
+        53.1% 47.1%
+        );    } }
+
+.branch__C1{
+    z-index: -43;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchC_1{
+    animation-name: tbranchC_1;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_1{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        49.4% 49.1%,
+        53.1% 47.1%,
+        53.1% 47.1%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        49.4% 49.1%,
+        55.8% 48.7%,
+        53.1% 47.1%
+        );    } }
+
+.branch__C2{
+    z-index: -43;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchC_2{
+    animation-name: tbranchC_2;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_2{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        53.1% 47.1%,
+        55.8% 48.7%,
+        53.1% 47.1%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        62.0% 40.3%,
+        55.8% 48.7%,
+        53.1% 47.1%
+        );    } }
+
+.branch__C3{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchC_3{
+    animation-name: tbranchC_3;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_3{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        62.0% 40.3%,
+        59.2% 42.7%,
+        62.0% 40.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        62.0% 40.3%,
+        59.2% 42.7%,
+        63.0% 31.4%
+        );    } }
+
+.branch__C4{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchC_4{
+    animation-name: tbranchC_4;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_4{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        62.7% 32.6%,
+        63.0% 31.4%,
+        63.0% 31.4%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        62.7% 32.6%,
+        59.2% 27.5%,
+        63.0% 31.4%
+        );    } }
+
+.branch__C5{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchC_5{
+    animation-name: tbranchC_5;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_5{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        62.0% 40.3%,
+        62.1% 38.6%,
+        62.0% 40.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        62.0% 40.3%,
+        62.1% 38.6%,
+        69.2% 34.5%
+        );    } }
+
+.branch__C6{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchC_6{
+    animation-name: tbranchC_6;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchC_6{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        68.2% 35.3%,
+        68.2% 35.3%,
+        69.2% 34.5%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        68.2% 35.3%,
+        73.8% 35.2%,
+        69.2% 34.5%
+        );    } }
+
+.branch__D0{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchD_0{
+    animation-name: tbranchD_0;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_0{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        42.8% 55.5%,
+        47.0% 50.7%,
+        42.8% 55.5%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        42.8% 55.5%,
+        46.9% 50.7%,
+        54.7% 56.0%
+        );    } }
+
+.branch__D1{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchD_1{
+    animation-name: tbranchD_1;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_1{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        54.7% 56.0%,
+        46.9% 50.7%,
+        54.7% 56.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        60.9% 53.3%,
+        46.9% 50.7%,
+        54.7% 56.0%
+        );    } }
+
+.branch__D2{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchD_2{
+    animation-name: tbranchD_2;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_2{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        60.9% 53.3%,
+        54.7% 56.0%,
+        54.7% 56.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        60.9% 53.3%,
+        57.9% 58.0%,
+        54.7% 56.0%
+        );    } }
+
+.branch__D3{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchD_3{
+    animation-name: tbranchD_3;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_3{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        60.9% 53.3%,
+        57.9% 58.0%,
+        57.9% 58.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        60.9% 53.3%,
+        57.9% 58.0%,
+        64.7% 57.4%
+        );    } }
+
+.branch__D4{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchD_4{
+    animation-name: tbranchD_4;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_4{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        60.9% 53.3%,
+        64.7% 57.4%,
+        64.7% 57.4%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        60.9% 53.3%,
+        65.4% 55.1%,
+        64.7% 57.4%
+        );    } }
+
+.branch__D5{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchD_5{
+    animation-name: tbranchD_5;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_5{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        64.7% 57.4%,
+        65.4% 55.1%,
+        64.7% 57.4%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        67.9% 57.9%,
+        65.4% 55.1%,
+        64.7% 57.4%
+        );    } }
+
+.branch__D6{
+    z-index: -44;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchD_6{
+    animation-name: tbranchD_6;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_6{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        67.9% 57.9%,
+        65.4% 55.1%,
+        65.4% 55.1%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        67.9% 57.9%,
+        65.4% 55.1%,
+        70.0% 50.6%
+        );    } }
+
+.branch__D7{
+    z-index: -45;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b3);   
+}
+
+.tbranchD_7{
+    animation-name: tbranchD_7;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_7{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        69.4% 52.7%,
+        69.4% 52.7%,
+        70.0% 50.6%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        69.4% 52.7%,
+        73.6% 47.9%,
+        70.0% 50.6%
+        );    } }
+
+.branch__D8{
+    z-index: -45;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b4);   
+}
+
+.tbranchD_8{
+    animation-name: tbranchD_8;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_8{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        71.6% 50.1%,
+        71.6% 50.1%,
+        73.6% 47.9%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        71.6% 50.1%,
+        78.7% 47.0%,
+        73.6% 47.9%
+        );    } }
+
+.branch__D9{
+    z-index: -45;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b5);   
+}
+
+.tbranchD_9{
+    animation-name: tbranchD_9;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_9{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        76.4% 47.7%,
+        76.4% 47.7%,
+        78.7% 47.0%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        76.4% 47.7%,
+        80.2% 42.8%,
+        78.7% 47.0%
+        );    } }
+
+.branch__D10{
+    z-index: -45;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b1);   
+}
+
+.tbranchD_10{
+    animation-name: tbranchD_10;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_10{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        67.9% 57.9%,
+        66.4% 57.1%,
+        66.4% 57.1%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        67.9% 57.9%,
+        66.4% 57.1%,
+        75.9% 51.3%
+        );    } }
+
+.branch__D11{
+    z-index: -46;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchD_11{
+    animation-name: tbranchD_11;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_11{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        73.3% 53.2%,
+        73.3% 53.2%,
+        75.9% 51.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        73.3% 53.2%,
+        82.1% 51.1%,
+        75.9% 51.3%
+        );    } }
+
+.branch__D12{
+    z-index: -46;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--b2);   
+}
+
+.tbranchD_12{
+    animation-name: tbranchD_12;
+    animation-fill-mode: forwards;
+    animation-duration: var(--bATime);
+}
+
+@keyframes tbranchD_12{
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        73.3% 53.2%,
+        73.3% 53.2%,
+        75.9% 51.3%
+        );
+    }
+    100%{
+        opacity: 1;
+        clip-path: polygon(        
+        73.3% 53.2%,
+        82.1% 51.1%,
+        75.9% 51.3%
+        );    } }
