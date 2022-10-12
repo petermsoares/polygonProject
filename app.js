@@ -46,10 +46,10 @@ const observerTreePolygon = new IntersectionObserver(entries => {
         }
         else{
             animateTree()
-            setTimeout(() => {animateBranchA()}, 3300);
-            setTimeout(() => {animateBranchB()}, 3300);
-            setTimeout(() => {animateBranchC()}, 3300);
-            setTimeout(() => {animateBranchD()}, 3300);
+            setTimeout(() => {animateBranchA()}, 3000);
+            setTimeout(() => {animateBranchB()}, 3000);
+            setTimeout(() => {animateBranchC()}, 3000);
+            setTimeout(() => {animateBranchD()}, 3000);
             setTimeout(() => {animateLeaves()}, 5000);
         }     
                             }
@@ -67,7 +67,7 @@ function animateLeaves(){
     leavesArray.forEach((piece, i) => { 
             setTimeout(() => {               
             piece.classList.add(`${leaves_animations}${[i]}`)
-            }, i * 300)
+            }, i * 0)
         })
 }
 
