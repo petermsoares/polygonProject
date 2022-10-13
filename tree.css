@@ -13,6 +13,331 @@
     height: 100vh;
 }
 
+#tree__title__polygon{
+    opacity: 1;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    clip-path: polygon(
+        49.9% 44.6%,
+        67.1% 55.4%,
+        32.8% 55.4%
+    );
+}
+
+.tree__title__background{
+    opacity: 1;
+    z-index:-100;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bgcolor);
+    clip-path: polygon(
+        32.6% 55.2%,
+        67.3% 55.2%,
+        67.3% 78.2%,
+        32.6% 78.2%
+    );
+}
+
+#tree__title__text{
+    opacity: 1;
+    z-index: -110;
+    position: absolute;
+    color: var(--white);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: monospace;
+}
+
+.tree__title__moveDown{
+    animation-name: treeMoveDown;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes treeMoveDown{
+    0%{
+        top: 40%;
+    }
+    20%{
+        top: 40%;
+    }
+    50%{
+        top: 38%;
+    }
+    100%{
+        top:60%
+    }
+}
+
+.rdrop0{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 160, 216);
+}
+
+.rainAnimate0{
+    animation-name: rainAnimate0;
+    animation-duration: 400ms;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainAnimate0 {
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        36.2% 54.5%,
+        36.2% 54.5%,
+
+        36.6% 54.5%,
+        36.6% 54.5%
+        );
+    }
+
+    50%{
+        opacity: 1;
+        clip-path: polygon(
+        36.2% 74.5%,
+        36.2% 97.7%,
+
+        36.6% 97.7%,
+        36.6% 74.5%
+        );
+    }
+
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        36.2% 97.7%,
+        36.2% 97.7%,
+
+        36.6% 97.7%,
+        36.6% 97.7%
+        );
+    }
+}
+
+
+.rdrop1{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 160, 216);
+}
+
+.rainAnimate1{
+    animation-name: rainAnimate1;
+    animation-duration: 400ms;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainAnimate1 {
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        46.2% 54.5%,
+        46.2% 54.5%,
+
+        46.6% 54.5%,
+        46.6% 54.5%
+        );
+    }
+
+    50%{
+        opacity: 1;
+        clip-path: polygon(
+        46.2% 74.5%,
+        46.2% 97.7%,
+
+        46.6% 97.7%,
+        46.6% 74.5%
+        );
+    }
+
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        46.2% 97.7%,
+        46.2% 97.7%,
+
+        46.6% 97.7%,
+        46.6% 97.7%
+        );
+    }
+}
+
+.rdrop2{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 160, 216);
+}
+
+.rainAnimate2{
+    animation-name: rainAnimate2;
+    animation-duration: 400ms;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainAnimate2 {
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        64.2% 54.5%,
+        64.2% 54.5%,
+
+        64.6% 54.5%,
+        64.6% 54.5%
+        );
+    }
+
+    50%{
+        opacity: 1;
+        clip-path: polygon(
+        64.2% 74.5%,
+        64.2% 97.7%,
+
+        64.6% 97.7%,
+        64.6% 74.5%
+        );
+    }
+
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        64.2% 97.7%,
+        64.2% 97.7%,
+
+        64.6% 97.7%,
+        64.6% 97.7%
+        );
+    }
+}
+
+.rdrop3{
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 160, 216);
+}
+
+.rainAnimate3{
+    animation-name: rainAnimate3;
+    animation-duration: 400ms;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainAnimate3 {
+    0%{
+        opacity: 1;
+        clip-path: polygon(
+        54.2% 54.5%,
+        54.2% 54.5%,
+
+        54.6% 54.5%,
+        54.6% 54.5%
+        );
+    }
+
+    50%{
+        opacity: 1;
+        clip-path: polygon(
+        54.2% 74.5%,
+        54.2% 97.7%,
+
+        54.6% 97.7%,
+        54.6% 74.5%
+        );
+    }
+
+    100%{
+        opacity: 1;
+        clip-path: polygon(
+        54.2% 97.7%,
+        54.2% 97.7%,
+
+        54.6% 97.7%,
+        54.6% 97.7%
+        );
+    }
+}
+
+.rainOff{
+    animation-name: rainOff;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainOff {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@media all and (max-width: 700px){
+    #tree__title__text{
+        font-size: 30px;
+    }
+}
+
+.ground{
+    z-index: -200;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(105, 66, 33);
+    clip-path: polygon(
+        10.3% 98.4%,
+        30.9% 99.7%,
+        41.4% 99.1%,
+        67.6% 99.6%,
+        87.2% 98.5%,
+        70.8% 95.6%,
+        63.6% 97.0%,
+        54.5% 95.6%,
+        42.6% 97.3%,
+        30.4% 97.5%
+    );
+}
+.tree__trigger{
+    position: absolute;
+    z-index: 500;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    clip-path: polygon(
+        50.0% 97.0%,
+        51.0% 99.0%,
+        53.0% 98.0%
+    );
+}
 .tree__polygon__base0{
     opacity: 0;
     z-index: 0;

@@ -23,7 +23,6 @@ const treeBranchAnimationsB = "tbranchB_"
 const treeBranchPolygonsB = document.querySelectorAll(".tree_branch_B")
 const treeBranchArrayB = Array.from(treeBranchPolygonsB)
 
-
 const treeBranchAnimationsC = "tbranchC_"
 const treeBranchPolygonsC = document.querySelectorAll(".tree_branch_C")
 const treeBranchArrayC = Array.from(treeBranchPolygonsC)
@@ -36,8 +35,14 @@ const leaves_animations = "animate_leaves_"
 const leaves_polygons = document.querySelectorAll(".leaves_polygon")
 const leavesArray = Array.from(leaves_polygons)
 
+const tree_title_animation = "tree__title__moveDown"
+const tree_title_text = document.getElementById("tree__title__text")
 
-
+const rain_drop_animations = "rainAnimate"
+const rain_drop_polygons = document.querySelectorAll(".rain")
+const rain_drop_array = Array.from(rain_drop_polygons)
+const rain_drop_triangle = document.getElementById("tree__title__polygon")
+const rain_drop_off = "rainOff"
 //Tree animation
 const observerTreePolygon = new IntersectionObserver(entries => {
     entries.forEach(entry =>{
@@ -45,12 +50,15 @@ const observerTreePolygon = new IntersectionObserver(entries => {
             return
         }
         else{
-            animateTree()
-            setTimeout(() => {animateBranchA()}, 3000);
-            setTimeout(() => {animateBranchB()}, 3000);
-            setTimeout(() => {animateBranchC()}, 3000);
-            setTimeout(() => {animateBranchD()}, 3000);
-            setTimeout(() => {animateLeaves()}, 5000);
+            setTimeout(() => {animateTreeTitle()}, 1200);
+            setTimeout(() => {animateRain()}, 2200);
+            setTimeout(() => {animateTreePolygonOut()}, 3400);            
+            setTimeout(() => {animateTree()}, 4500);
+            setTimeout(() => {animateBranchA()}, 6600);
+            setTimeout(() => {animateBranchB()}, 6600);
+            setTimeout(() => {animateBranchC()}, 6600);
+            setTimeout(() => {animateBranchD()}, 6600);
+            setTimeout(() => {animateLeaves()}, 8600);
         }     
                             }
                     )
@@ -60,6 +68,26 @@ const observerTreePolygon = new IntersectionObserver(entries => {
 treeTrigger.forEach(section => {
     observerTreePolygon.observe(section)
 })
+
+//Animates the Tree Title up and then down behind mask.
+function animateTreeTitle(){
+    tree_title_text.classList.add(tree_title_animation)
+    }
+
+function animateTreePolygonOut(){
+    // console.log(rain_drop_triangle)
+    rain_drop_triangle.classList.add(rain_drop_off)
+}
+
+//Animates the rain drops
+function animateRain(){
+    // console.log(`animateLeaves() number: ${[i]}`)
+    rain_drop_array.forEach((piece, i) => { 
+            setTimeout(() => {               
+            piece.classList.add(`${rain_drop_animations}${[i]}`)
+            }, i * 150)
+        })
+}
 
 //Animates the base of the tree
 function animateLeaves(){

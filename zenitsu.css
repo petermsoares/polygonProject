@@ -1,23 +1,7 @@
 .zenitsu__wrapper{
     height: 100vh;
-    /* background-color: rgb(116, 116, 255); */
+    background-color: rgb(116, 116, 255);
 }
-
-.container__all{
-    width: 100vh;
-    height: 100vh;
-}
-
-
-@media all and (max-width: 1400px){
-
-
-.container__all{
-    width: 100vw;
-    height: 100vw;
-}
-}
-
 
 
 .zpolygon1{

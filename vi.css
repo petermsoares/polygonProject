@@ -6,11 +6,12 @@
 
 :root {
     --white: #dddddd;
+    --bgcolor: #6e6e6e;
 }
 
 body{
     width: 100vw;
-    background-color: #6e6e6e;
+    background-color: var(--bgcolor);
     overflow-x: hidden;
 }
 
@@ -19,12 +20,12 @@ body{
         width: 100vw;
         height: 100vh;
         overflow: hidden;        
-    }
+}
 
 
 
 .hero__section{
-    background-color: #6e6e6e;
+    background-color: var(--bgcolor);
     position: relative;
     transform: translate(-50%, -10%);
     left: 50%; 
@@ -530,14 +531,19 @@ body{
 .container__all{
     position: relative;
     margin: 0px auto 0px auto;
+    width: 100vh;
+    height: 100vh;
     max-width: 1200px;
     max-height: 1200px;
-/* Use this container for all artworks other than
-Vi. Using a 1000x1000 pixel grid makes it easier
-to position the % values for the polygons. Keep Vi's
-container because it was based on a 1000x880 grid. */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
+@media all and (max-width: 1200px){
+.container__all{
+    width: 100vw;
+    height: 100vw;
+}   }
 
 .viDescriptoin__Fade{
     animation: viFade;
