@@ -1,0 +1,485 @@
+/* Styles for hero section */
+.hero__hide{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;        
+}
+
+.hero__section{
+    background-color: var(--bgcolor);
+    position: relative;
+    transform: translate(-50%, -10%);
+    left: 50%; 
+    height: 100vw;
+    width: 100vw;
+    max-width: 1200px;
+    max-height: 1200px;
+}
+
+@media all and (max-width: 1200px) {
+
+    .hero__section{
+        height: 1000px;
+        width: 1000px;
+}   }
+
+
+
+.hero__section__title{
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+    position: absolute;
+    font-size: 60px;
+    font-family: monospace;
+    color: var(--white);
+}
+
+.flicker{
+    opacity: 0;
+    animation: flicker;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 3.25s;
+    animation-iteration-count: 1;
+    }
+
+@keyframes flicker{
+    0%{opacity: 0;}
+    45%{opacity: .7;}
+    60%{opacity: .1;}
+    100%{opacity: 1;}
+}
+
+.fade{
+    opacity: 0;
+    animation: fade;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    }
+
+.hero__section__description{
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -25%);
+    position: absolute;
+    font-size: 30px;
+    font-family: monospace;
+    color: var(--white);
+    opacity: 0;
+
+    animation: fade, down;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.hero__section__instructions{
+    opacity: 0;
+    font-family: monospace;
+    z-index: 300;
+    position: absolute;
+    color: var(--white);
+    font-size: 18px;
+    width: 350px;
+    text-align: justify;
+
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -25%);
+
+    animation-name: instructionFadeIn;
+    animation-duration: 1000ms;
+    animation-delay: 6000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes instructionFadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@media all and (max-width: 1600px) {
+.hero__section__title{
+    font-size: 60px;
+}
+.hero__section__description{
+    font-size: 30px;
+}   
+.hero__section__instructions{
+    font-size: 22px;
+}
+}
+
+
+
+@media all and (max-width: 1200px) {
+
+.hero__section__title{
+    font-size: 40px;
+}
+.hero__section__description{
+    font-size: 30px;
+}   
+.hero__section__instructions{
+    font-size: 18px;
+}}
+
+@media all and (max-width: 400px) {
+.hero__section__title{
+    font-size: 26px;
+}
+.hero__section__description{
+    font-size: 20px;
+}   
+.hero__section__instructions{
+    font-size: 18px;
+    width: 260px;
+}}
+
+@keyframes down{
+    0%{top: 30%;}
+    100%{top: 32%;}
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+
+    100%{opacity: 1;}
+}
+
+.hero__section__triangle__point1{
+    z-index: 16;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+    top: 39.1%;
+    left: 37.8%;
+    transform: translate(-10px, -10px);
+    
+    animation: move__point__1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.hero__section__triangle__side1{
+    position: absolute;
+    z-index: 15;
+    height: 100%;
+    width: 100%;
+    
+    animation: move__side__1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    background-color: #6e6e6e;
+    clip-path: polygon(
+        37.2% 39.2%,
+        38% 39%,
+        50.5% 60.7%,
+        49.8% 61.1%
+        );
+}
+
+@keyframes move__point__1 {
+    0%{ 
+        opacity: 0;  
+        top: 39.1%;
+        left: 37.8%;
+    }
+    
+    30%{
+        opacity: 1;
+        top: 39.1%;
+        left: 37.8%;
+    }
+
+    80%{
+        opacity: 1;
+        top: 60.4%;
+        left: 50%;
+    }
+
+    100%{
+        opacity: 0;
+        top: 60.4%;
+        left: 50%;
+    }
+}
+
+@keyframes move__side__1 {
+    0%{
+        clip-path: polygon(
+        37.2% 39.2%,
+        38% 39%,
+        50.5% 60.7%,
+        49.8% 61.1%
+        );
+
+    }
+    
+    30%{
+        clip-path: polygon(
+        37.2% 39.2%,
+        38% 39%,
+        50.5% 60.7%,
+        49.8% 61.1%
+        );
+      }
+
+      80%{
+        clip-path: polygon(
+        49.8% 61.1%,
+        50.5% 60.7%,
+        50.5% 60.7%,
+        49.8% 61.1%
+        );
+      }
+
+    100%{
+        clip-path: polygon(
+        49.8% 61.1%,
+        50.5% 60.7%,
+        50.5% 60.7%,
+        49.8% 61.1%
+        );
+      }
+}
+
+.hero__section__triangle__point2{
+    z-index:16;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+    top: 60.4%;
+    left: 50%;
+    transform: translate(-10px, -10px);
+    
+    animation: move__point__2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.hero__section__triangle__side2{
+    z-index: 15;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6e6e6e;
+
+    animation: move__side__2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+    clip-path: polygon(
+        49.5% 60.7%,
+        50.2% 61.1%,
+        62.8% 39.2%,
+        62.4% 38.3%
+        );
+}
+
+@keyframes move__point__2 {
+    0%{ 
+        opacity: 0;  
+        top: 61%;
+        left: 50%;
+    }    
+    30%{
+        opacity: 1;
+        top: 61%;
+        left: 50%;
+    }
+    80%{
+        opacity: 1;
+        top: 39.1%;
+        left: 62.2%;
+    }
+    100%{
+        opacity: 0;
+        top: 39.1%;
+        left: 62.2%;
+    }
+}
+
+@keyframes move__side__2 {
+    0%{
+        clip-path: polygon(
+        49.5% 60.7%,
+        50.2% 61.1%,
+        62.8% 39.2%,
+        62.4% 38.3%
+        );
+
+    }    
+    30%{
+        clip-path: polygon(
+        49.5% 60.7%,
+        50.2% 61.1%,
+        62.8% 39.2%,
+        62.4% 38.3%
+        );
+      }
+
+      80%{
+        clip-path: polygon(
+        62.4% 38.3%,
+        62.8% 39.2%,
+        62.8% 39.2%,
+        62.4% 38.3%
+        );
+      }
+
+    100%{
+        clip-path: polygon(
+        62.4% 38.3%,
+        62.8% 39.2%,
+        62.8% 39.2%,
+        62.4% 38.3%
+        );
+      }
+}
+
+.hero__section__triangle__point3{
+    z-index:16;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+    top: 39.1%;
+    left: 62.2%;
+    transform: translate(-10px, -10px);
+    
+    animation: move__point__3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+}
+
+.hero__section__triangle__side3{
+    z-index: 15;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6e6e6e;
+    
+    animation: move__side__3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    
+    clip-path: polygon(
+        62.6% 38.6%,
+        62.6% 40%,
+        37.4% 40%,
+        37.4% 38.6%
+        );
+}
+
+@keyframes move__point__3 {
+    0%{ 
+        opacity: 0;  
+        top: 39.1%;
+        left: 62.2%;
+    }    
+    30%{
+        opacity: 1;
+        top: 39.1%;
+        left: 62.2%;
+    }
+    80%{
+        opacity: 1;
+        top: 39.1%;
+        left: 37.8%
+    }
+    100%{
+        opacity: 0;
+        top: 39.1%;
+        left: 37.8%;
+    }
+}
+
+@keyframes move__side__3 {
+    0%{
+        clip-path: polygon(
+        62.6% 38.6%,
+        62.6% 40%,
+        37.4% 40%,
+        37.4% 38.6%
+        );
+    }    
+    30%{
+        clip-path: polygon(
+        62.6% 38.6%,
+        62.6% 40%,
+        37.4% 40%,
+        37.4% 38.6%
+        );
+      }
+      80%{
+        clip-path: polygon(
+        37.4% 38.6%,
+        37.4% 40%,
+        37.4% 40%,
+        37.4% 38.6%
+        );
+      }
+    100%{
+        clip-path: polygon(
+        37.4% 38.6%,
+        37.4% 40%,
+        37.4% 40%,
+        37.4% 38.6%
+        );
+      }
+}
+
+.hero__section__triangle__fill{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:#c5beb9;
+    background-color:var(--white);
+    clip-path: polygon(
+        37.4% 39%,
+        50% 60.9%,
+        62.6% 39%
+    );
+}
+
+.hero__section__triangle__cover{
+    z-index: 10;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6e6e6e;
+    clip-path: polygon(
+        38.2% 39.4%,
+        50% 60%,
+        61.8% 39.4%
+    );
+}

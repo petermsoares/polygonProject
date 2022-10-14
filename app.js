@@ -1,6 +1,8 @@
 const viPolygons = document.querySelectorAll(".viPolygon")
 const viPolygonSection = document.querySelectorAll(".polygon222")
 const viDescription = document.querySelectorAll(".viDescription")
+const viTitle = document.getElementById("vi__title__container")
+
 
 const zenitsu_Line_Animations = ["zline1","zline2","zline3","zline4","zline5","zline6","zline7","zline8","zline9","zline10","zline11",]
 const zenitsu_Lines = document.querySelectorAll(".zenitsu__line")
@@ -186,14 +188,25 @@ const observerViPolygon = new IntersectionObserver(entries => {
             return
         }
         else{  
-            viPolygons.forEach((piece, i) => { 
-                setTimeout(() => {
-                    piece.classList.add("viPolygonAnimate")
-            }, i * 20);
-        })      
+            setTimeout(() => {viAnimateTitle()}, 1500);
+            setTimeout(() => {viAnimatePolygons()}, 2500);
+
     }
     })
 })
+//Animates Vi Polygons into view
+function viAnimatePolygons(){
+    viPolygons.forEach((piece, i) => { 
+                setTimeout(() => {
+                    piece.classList.add("viPolygonAnimate")
+            }, i * 20);
+        })}
+
+//Vi animate title out of view
+function viAnimateTitle(){
+    viTitle.classList.add("viFade")
+}
+                            
 //Vi intersection observer--polygons
 viPolygonSection.forEach(section => {
     observerViPolygon.observe(section)
